@@ -1,6 +1,6 @@
 {
 	"__comment": "Designed by rndm_access with Cubik Studio - https://cubik.studio",
-	"parent": "minecraft:block/block",
+	"parent": "assorteddiscoveries:block/bamboo_fence",
 	"textures": {
 		"particle": "#side",
 		"side": "#side",

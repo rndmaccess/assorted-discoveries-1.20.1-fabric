@@ -1,12 +1,12 @@
 {
 	"__comment": "Designed by rndm_access with Cubik Studio - https://cubik.studio",
-	"parent": "minecraft:block/block",
+	"parent": "assorteddiscoveries:block/bamboo_fence_gate",
 	"textures": {
 		"particle": "#side",
 		"side": "#side",
 		"bamboo_gate_details": "#bamboo_gate_details"
 	},
-	"elements": [ 	 
+	"elements": [
 		{
 			"__comment": "LeftPost",
 			"from": [ 0, 3, 6.5 ],
