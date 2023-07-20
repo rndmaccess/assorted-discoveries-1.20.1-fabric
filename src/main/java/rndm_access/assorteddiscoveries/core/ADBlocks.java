@@ -190,10 +190,6 @@ public class ADBlocks {
     public static final Block MANGROVE_ROPE_LADDER = ropeLadderBlock();
     public static final Block IRON_LADDER = new LadderBlock(AbstractBlock.Settings.create().mapColor(MapColor.IRON_GRAY)
             .requiresTool().strength(5.0F).sounds(BlockSoundGroup.METAL).nonOpaque());
-    public static final Block DIRT_SLAB = new ADDirtSlabBlock(AbstractBlock.Settings.copy(Blocks.DIRT).ticksRandomly());
-    public static final Block GRASS_SLAB = new ADGrassSlabBlock(AbstractBlock.Settings.copy(Blocks.GRASS_BLOCK));
-    public static final Block DIRT_PATH_SLAB = new ADDirtPathSlabBlock(AbstractBlock.Settings.copy(Blocks.DIRT_PATH));
-    public static final Block COARSE_DIRT_SLAB = new SlabBlock(AbstractBlock.Settings.copy(Blocks.COARSE_DIRT));
     public static final Block SNOW_BRICKS = new Block(AbstractBlock.Settings.create().mapColor(MapColor.WHITE)
             .strength(0.4F).requiresTool().sounds(BlockSoundGroup.SNOW));
     public static final Block SNOW_BRICK_STAIRS = new StairsBlock(ADBlocks.SNOW_BRICKS.getDefaultState(),
@@ -782,10 +778,6 @@ public class ADBlocks {
         register("warped_rope_ladder", WARPED_ROPE_LADDER);
         register("mangrove_rope_ladder", MANGROVE_ROPE_LADDER);
         register("iron_ladder", IRON_LADDER);
-        register("dirt_slab", DIRT_SLAB);
-        register("grass_slab", GRASS_SLAB);
-        register("dirt_path_slab", DIRT_PATH_SLAB);
-        register("coarse_dirt_slab", COARSE_DIRT_SLAB);
         register("snow_bricks", SNOW_BRICKS);
         register("snow_brick_stairs", SNOW_BRICK_STAIRS);
         register("snow_brick_slab", SNOW_BRICK_SLAB);

@@ -167,10 +167,6 @@ public class ADItems {
     public static final Item WARPED_ROPE_LADDER = ropeLadderBlockItem(ADBlocks.WARPED_ROPE_LADDER);
     public static final Item MANGROVE_ROPE_LADDER = ropeLadderBlockItem(ADBlocks.MANGROVE_ROPE_LADDER);
     public static final Item IRON_LADDER = blockItem(ADBlocks.IRON_LADDER);
-    public static final Item DIRT_SLAB = blockItem(ADBlocks.DIRT_SLAB);
-    public static final Item GRASS_SLAB = blockItem(ADBlocks.GRASS_SLAB);
-    public static final Item DIRT_PATH_SLAB = blockItem(ADBlocks.DIRT_PATH_SLAB);
-    public static final Item COARSE_DIRT_SLAB = blockItem(ADBlocks.COARSE_DIRT_SLAB);
     public static final Item SNOW_BRICKS = blockItem(ADBlocks.SNOW_BRICKS);
     public static final Item SNOW_BRICK_STAIRS = blockItem(ADBlocks.SNOW_BRICK_STAIRS);
     public static final Item SNOW_BRICK_SLAB = blockItem(ADBlocks.SNOW_BRICK_SLAB);
@@ -600,10 +596,6 @@ public class ADItems {
         register("warped_rope_ladder", WARPED_ROPE_LADDER);
         register("mangrove_rope_ladder", MANGROVE_ROPE_LADDER);
         register("iron_ladder", IRON_LADDER);
-        register("dirt_slab", DIRT_SLAB);
-        register("grass_slab", GRASS_SLAB);
-        register("dirt_path_slab", DIRT_PATH_SLAB);
-        register("coarse_dirt_slab", COARSE_DIRT_SLAB);
         register("snow_bricks", SNOW_BRICKS);
         register("snow_brick_stairs", SNOW_BRICK_STAIRS);
         register("snow_brick_slab", SNOW_BRICK_SLAB);

@@ -440,10 +440,6 @@ public class AssortedDiscoveries implements ModInitializer {
 					entries.add(ADItems.FRESH_BAMBOO_FENCE_GATE);
 					entries.add(ADItems.DRIED_BAMBOO_FENCE);
 					entries.add(ADItems.DRIED_BAMBOO_FENCE_GATE);
-					entries.add(ADItems.DIRT_SLAB);
-					entries.add(ADItems.COARSE_DIRT_SLAB);
-					entries.add(ADItems.DIRT_PATH_SLAB);
-					entries.add(ADItems.GRASS_SLAB);
 					entries.add(ADItems.CHOCOLATE_CAKE);
 					entries.add(ADItems.RED_VELVET_CAKE);
 					entries.add(ADItems.SWEET_BERRY_PIE);
