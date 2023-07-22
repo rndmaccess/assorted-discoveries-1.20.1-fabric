@@ -450,7 +450,7 @@
   "advancements.assorteddiscoveries.story.find_nether_cabin.title": "A long way from home",
   "advancements.assorteddiscoveries.story.find_nether_cabin.description": "Visit a cabin in the nether",
   
-  "itemGroup.assorteddiscoveries.mod_group": "Assorted Discoveries Mod",
+  "itemGroup.assorteddiscoveries.item_group": "Assorted Discoveries Mod",
   
   "entity.minecraft.villager.lumberjack": "Lumberjack",
 

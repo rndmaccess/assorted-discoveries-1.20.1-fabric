@@ -140,7 +140,7 @@ public class AssortedDiscoveries implements ModInitializer {
 
 	private static void addItemGroups() {
 		Registry.register(Registries.ITEM_GROUP, ITEM_GROUP_KEY, FabricItemGroup.builder()
-				.displayName(Text.translatable(ADReference.MOD_ID + "item_group"))
+				.displayName(Text.translatable("itemGroup." + ADReference.MOD_ID + ".item_group"))
 				.icon(() -> new ItemStack(ADItems.ENDERMAN_PLUSH))
 				.entries((context, entries) -> {
 					entries.add(ADItems.BAT_PLUSH);
