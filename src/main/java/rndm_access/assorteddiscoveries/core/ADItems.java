@@ -229,10 +229,10 @@ public class ADItems {
     public static final Item RED_TORCH = wallStandingBlockItem(ADBlocks.RED_TORCH, ADBlocks.RED_WALL_TORCH);
     public static final Item BLACK_TORCH = wallStandingBlockItem(ADBlocks.BLACK_TORCH, ADBlocks.BLACK_WALL_TORCH);
     public static final Item MAROON_TORCH = wallStandingBlockItem(ADBlocks.MAROON_TORCH, ADBlocks.MAROON_WALL_TORCH);
-    public static final Item FRESH_BAMBOO_FENCE = blockItem(ADBlocks.FRESH_BAMBOO_FENCE);
-    public static final Item FRESH_BAMBOO_FENCE_GATE = blockItem(ADBlocks.FRESH_BAMBOO_FENCE_GATE);
-    public static final Item DRIED_BAMBOO_FENCE = blockItem(ADBlocks.DRIED_BAMBOO_FENCE);
-    public static final Item DRIED_BAMBOO_FENCE_GATE = blockItem(ADBlocks.DRIED_BAMBOO_FENCE_GATE);
+    public static final Item FRESH_ORNATE_BAMBOO_FENCE = blockItem(ADBlocks.FRESH_ORNATE_BAMBOO_FENCE);
+    public static final Item FRESH_ORNATE_BAMBOO_FENCE_GATE = blockItem(ADBlocks.FRESH_ORNATE_BAMBOO_FENCE_GATE);
+    public static final Item ORNATE_BAMBOO_FENCE = blockItem(ADBlocks.ORNATE_BAMBOO_FENCE);
+    public static final Item ORNATE_BAMBOO_FENCE_GATE = blockItem(ADBlocks.ORNATE_BAMBOO_FENCE_GATE);
     public static final Item BAUXITE = blockItem(ADBlocks.BAUXITE);
     public static final Item BAUXITE_SLAB = blockItem(ADBlocks.BAUXITE_SLAB);
     public static final Item BAUXITE_STAIRS = blockItem(ADBlocks.BAUXITE_STAIRS);
@@ -390,7 +390,6 @@ public class ADItems {
             .food(ADFoodComponents.WITCHS_CRADLE_SOUP).maxCount(1));
     public static final Item MIXED_SEED_PACKET = new ADMixedSeedPacketItem(new Item.Settings());
     public static final Item CATTAIL = new AliasedBlockItem(ADBlocks.CATTAIL, new Item.Settings());
-    public static final Item DRIED_BAMBOO = item();
     public static final Item FRIED_EGG = new Item(new Item.Settings().food(ADFoodComponents.FRIED_EGG).maxCount(16));
     public static final Item BLOOD_KELP_SEED_CLUSTER = new AliasedBlockItem(ADBlocks.BLOOD_KELP, new Item.Settings());
     public static final Item BLOOD_KELP = item();
@@ -658,10 +657,10 @@ public class ADItems {
         register("red_torch", RED_TORCH);
         register("black_torch", BLACK_TORCH);
         register("maroon_torch", MAROON_TORCH);
-        register("fresh_bamboo_fence", FRESH_BAMBOO_FENCE);
-        register("fresh_bamboo_fence_gate", FRESH_BAMBOO_FENCE_GATE);
-        register("dried_bamboo_fence", DRIED_BAMBOO_FENCE);
-        register("dried_bamboo_fence_gate", DRIED_BAMBOO_FENCE_GATE);
+        register("fresh_ornate_bamboo_fence", FRESH_ORNATE_BAMBOO_FENCE);
+        register("fresh_ornate_bamboo_fence_gate", FRESH_ORNATE_BAMBOO_FENCE_GATE);
+        register("ornate_bamboo_fence", ORNATE_BAMBOO_FENCE);
+        register("ornate_bamboo_fence_gate", ORNATE_BAMBOO_FENCE_GATE);
         register("bauxite", BAUXITE);
         register("bauxite_slab", BAUXITE_SLAB);
         register("bauxite_stairs", BAUXITE_STAIRS);
@@ -807,7 +806,6 @@ public class ADItems {
         register("witchs_cradle_soup", WITCHS_CRADLE_SOUP);
         register("mixed_seed_packet", MIXED_SEED_PACKET);
         register("cattail", CATTAIL);
-        register("dried_bamboo", DRIED_BAMBOO);
         register("fried_egg", FRIED_EGG);
         register("blood_kelp_seed_cluster", BLOOD_KELP_SEED_CLUSTER);
         register("blood_kelp", BLOOD_KELP);

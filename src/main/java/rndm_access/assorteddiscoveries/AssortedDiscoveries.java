@@ -436,10 +436,10 @@ public class AssortedDiscoveries implements ModInitializer {
 					entries.add(ADItems.MAROON_STAINED_GLASS);
 					entries.add(ADItems.MAROON_STAINED_GLASS_PANE);
 					entries.add(ADItems.MAROON_CANDLE);
-					entries.add(ADItems.FRESH_BAMBOO_FENCE);
-					entries.add(ADItems.FRESH_BAMBOO_FENCE_GATE);
-					entries.add(ADItems.DRIED_BAMBOO_FENCE);
-					entries.add(ADItems.DRIED_BAMBOO_FENCE_GATE);
+					entries.add(ADItems.FRESH_ORNATE_BAMBOO_FENCE);
+					entries.add(ADItems.FRESH_ORNATE_BAMBOO_FENCE_GATE);
+					entries.add(ADItems.ORNATE_BAMBOO_FENCE);
+					entries.add(ADItems.ORNATE_BAMBOO_FENCE_GATE);
 					entries.add(ADItems.CHOCOLATE_CAKE);
 					entries.add(ADItems.RED_VELVET_CAKE);
 					entries.add(ADItems.SWEET_BERRY_PIE);
@@ -461,7 +461,6 @@ public class AssortedDiscoveries implements ModInitializer {
 					entries.add(ADItems.SNAPDRAGON);
 					entries.add(ADItems.ENDER_GRASS);
 					entries.add(ADItems.PURPLE_MUSHROOM);
-					entries.add(ADItems.DRIED_BAMBOO);
 					entries.add(ADItems.NOODLES);
 					entries.add(ADItems.CARAMEL);
 					entries.add(ADItems.CARAMEL_APPLE);

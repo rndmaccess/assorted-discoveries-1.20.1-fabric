@@ -1,0 +1,7 @@
+{
+  "parent": "assorteddiscoveries:block/template_ornate_bamboo_fence_inventory",
+  "textures": {
+    "side": "assorteddiscoveries:block/ornate_bamboo_fence_side",
+	"top": "assorteddiscoveries:block/ornate_bamboo_fence_top"
+  }
+}

@@ -279,11 +279,11 @@ public class ADBlocks {
     public static final Block MAROON_TORCH = torchBlock(ADParticleTypes.MAROON_FLAME);
     public static final Block WITCHS_CRADLE = new ADWitchsCradleBlock(AbstractBlock.Settings.copy(Blocks.SWEET_BERRY_BUSH)
             .luminance((state) -> 10));
-    public static final Block FRESH_BAMBOO_FENCE = bambooFenceBlock(MapColor.DARK_GREEN);
-    public static final Block FRESH_BAMBOO_FENCE_GATE = new FenceGateBlock(AbstractBlock.Settings.copy(FRESH_BAMBOO_FENCE),
+    public static final Block FRESH_ORNATE_BAMBOO_FENCE = bambooFenceBlock(MapColor.DARK_GREEN);
+    public static final Block FRESH_ORNATE_BAMBOO_FENCE_GATE = new FenceGateBlock(AbstractBlock.Settings.copy(FRESH_ORNATE_BAMBOO_FENCE),
             WoodType.BAMBOO);
-    public static final Block DRIED_BAMBOO_FENCE = bambooFenceBlock(MapColor.YELLOW);
-    public static final Block DRIED_BAMBOO_FENCE_GATE = new FenceGateBlock(AbstractBlock.Settings.copy(DRIED_BAMBOO_FENCE),
+    public static final Block ORNATE_BAMBOO_FENCE = bambooFenceBlock(MapColor.YELLOW);
+    public static final Block ORNATE_BAMBOO_FENCE_GATE = new FenceGateBlock(AbstractBlock.Settings.copy(ORNATE_BAMBOO_FENCE),
             WoodType.BAMBOO);
     public static final Block BAUXITE = new Block(AbstractBlock.Settings.create()
             .mapColor(MapColor.SPRUCE_BROWN).strength(0.3F));
@@ -858,10 +858,10 @@ public class ADBlocks {
         register("black_torch", BLACK_TORCH);
         register("maroon_torch", MAROON_TORCH);
         register("witchs_cradle", WITCHS_CRADLE);
-        register("fresh_bamboo_fence", FRESH_BAMBOO_FENCE);
-        register("fresh_bamboo_fence_gate", FRESH_BAMBOO_FENCE_GATE);
-        register("dried_bamboo_fence", DRIED_BAMBOO_FENCE);
-        register("dried_bamboo_fence_gate", DRIED_BAMBOO_FENCE_GATE);
+        register("fresh_ornate_bamboo_fence", FRESH_ORNATE_BAMBOO_FENCE);
+        register("fresh_ornate_bamboo_fence_gate", FRESH_ORNATE_BAMBOO_FENCE_GATE);
+        register("ornate_bamboo_fence", ORNATE_BAMBOO_FENCE);
+        register("ornate_bamboo_fence_gate", ORNATE_BAMBOO_FENCE_GATE);
         register("bauxite", BAUXITE);
         register("bauxite_slab", BAUXITE_SLAB);
         register("bauxite_stairs", BAUXITE_STAIRS);
