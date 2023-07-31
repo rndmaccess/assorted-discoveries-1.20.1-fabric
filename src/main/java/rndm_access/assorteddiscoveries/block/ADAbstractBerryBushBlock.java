@@ -10,6 +10,7 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;
 import net.minecraft.registry.tag.TagKey;
+import net.minecraft.server.world.ServerWorld;
 import net.minecraft.sound.SoundCategory;
 import net.minecraft.sound.SoundEvents;
 import net.minecraft.util.ActionResult;
@@ -17,8 +18,10 @@ import net.minecraft.util.Hand;
 import net.minecraft.util.hit.BlockHitResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Vec3d;
+import net.minecraft.util.math.random.Random;
 import net.minecraft.world.BlockView;
 import net.minecraft.world.World;
+import net.minecraft.world.event.GameEvent;
 
 public abstract class ADAbstractBerryBushBlock extends SweetBerryBushBlock {
     public ADAbstractBerryBushBlock(AbstractBlock.Settings settings) {
@@ -30,6 +33,8 @@ public abstract class ADAbstractBerryBushBlock extends SweetBerryBushBlock {
     protected abstract TagKey<EntityType<?>> mobsImmune();
 
     protected abstract boolean bushDamages();
+
+    protected abstract boolean needsLightToGrow();
 
     @Override
     public ActionResult onUse(BlockState state, World world, BlockPos pos, PlayerEntity player, Hand hand, BlockHitResult hit) {
@@ -69,5 +74,23 @@ public abstract class ADAbstractBerryBushBlock extends SweetBerryBushBlock {
                 }
             }
         }
+    }
+
+    public void randomTick(BlockState state, ServerWorld world, BlockPos pos, Random random) {
+        int age = state.get(AGE);
+
+        if(!needsLightToGrow()) {
+            growBush(age, state, world, pos);
+        } else {
+            if (age < 3 && random.nextInt(5) == 0 && world.getBaseLightLevel(pos.up(), 0) >= 9) {
+                growBush(age, state, world, pos);
+            }
+        }
+    }
+
+    private static void growBush(int age, BlockState state, ServerWorld world, BlockPos pos) {
+        BlockState blockState = state.with(AGE, age + 1);
+        world.setBlockState(pos, blockState, 2);
+        world.emitGameEvent(GameEvent.BLOCK_CHANGE, pos, GameEvent.Emitter.of(blockState));
     }
 }

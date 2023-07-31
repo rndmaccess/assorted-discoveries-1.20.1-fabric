@@ -26,4 +26,9 @@ public class ADBlueberryBushBlock extends ADAbstractBerryBushBlock {
     protected boolean bushDamages() {
         return false;
     }
+
+    @Override
+    protected boolean needsLightToGrow() {
+        return true;
+    }
 }

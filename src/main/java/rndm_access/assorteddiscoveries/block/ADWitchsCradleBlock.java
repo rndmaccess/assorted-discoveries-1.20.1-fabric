@@ -40,6 +40,11 @@ public class ADWitchsCradleBlock extends ADAbstractBerryBushBlock {
     }
 
     @Override
+    protected boolean needsLightToGrow() {
+        return true;
+    }
+
+    @Override
     protected Item berryItem() {
         return ADItems.WITCHS_CRADLE_BRANCH;
     }

@@ -29,6 +29,11 @@ public class ADCindersnapBerryBushBlock extends ADAbstractBerryBushBlock {
     }
 
     @Override
+    protected boolean needsLightToGrow() {
+        return false;
+    }
+
+    @Override
     protected Item berryItem() {
         return ADItems.CINDERSNAP_BERRIES;
     }
