@@ -556,9 +556,12 @@ public class ADBlocks {
     public static final Block BLACK_CANDLE_RED_VELVET_CAKE = new ADCandleCakeBlock(RED_VELVET_CAKE, Blocks.BLACK_CANDLE,
             AbstractBlock.Settings.copy(Blocks.CANDLE_CAKE));
     public static final Block CAMEL_PLUSH = new ADCamelPlushBlock(AbstractBlock.Settings.copy(ADBlocks.BAT_PLUSH));
-    public static final Block CINDERSNAP_BERRY_BUSH = new ADCindersnapBerryBushBlock(AbstractBlock.Settings.copy(Blocks.SWEET_BERRY_BUSH)
-            .luminance((state) -> 8));
-    public static final Block FROSTBITE_BERRY_BUSH = new ADFrostbiteBerryBushBlock(AbstractBlock.Settings.copy(Blocks.SWEET_BERRY_BUSH));
+    public static final Block CINDERSNAP_BERRY_BUSH = new ADCindersnapBerryBushBlock(AbstractBlock.Settings.create()
+            .mapColor(MapColor.DARK_CRIMSON).ticksRandomly().noCollision().sounds(BlockSoundGroup.NETHER_SPROUTS)
+            .pistonBehavior(PistonBehavior.DESTROY).luminance((state) -> 8));
+    public static final Block FROSTBITE_BERRY_BUSH = new ADFrostbiteBerryBushBlock(AbstractBlock.Settings.create()
+            .mapColor(MapColor.CYAN).ticksRandomly().noCollision().sounds(BlockSoundGroup.NETHER_SPROUTS)
+            .pistonBehavior(PistonBehavior.DESTROY).luminance((state) -> 5));
 
     private static ADBambooFenceBlock bambooFenceBlock(MapColor color) {
         return new ADBambooFenceBlock(AbstractBlock.Settings.create().mapColor(color).strength(1.0F)
