@@ -46,6 +46,7 @@ public class ADParticleTypes {
     public static final DefaultParticleType WITCHS_CRADLE_SPORE = register("witchs_cradle_spore");
     public static final DefaultParticleType FALLING_WEEPING_HEART_NECTAR = register("falling_weeping_heart_nectar");
     public static final DefaultParticleType WEEPING_HEART_AIR_NECTAR = register("weeping_heart_air_nectar");
+    public static final DefaultParticleType SOUL_SPARK = register("soul_spark");
 
     private static DefaultParticleType register(String path) {
         return Registry.register(Registries.PARTICLE_TYPE, ADReference.makeId(path), FabricParticleTypes.simple());

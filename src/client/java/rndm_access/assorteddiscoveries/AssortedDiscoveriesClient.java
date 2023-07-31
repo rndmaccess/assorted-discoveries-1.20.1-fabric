@@ -89,6 +89,7 @@ public class AssortedDiscoveriesClient implements ClientModInitializer {
         factoryRegistry.register(ADParticleTypes.WITCHS_CRADLE_SPORE, ADSporeParticle.Factory::new);
         factoryRegistry.register(ADParticleTypes.FALLING_WEEPING_HEART_NECTAR, ADFallingNectarParticle.Factory::new);
         factoryRegistry.register(ADParticleTypes.WEEPING_HEART_AIR_NECTAR, ADAirNectarParticle.Factory::new);
+        factoryRegistry.register(ADParticleTypes.SOUL_SPARK, LavaEmberParticle.Factory::new);
     }
 
     private void registerRenderLayers() {
