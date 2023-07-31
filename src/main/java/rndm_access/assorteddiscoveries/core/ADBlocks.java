@@ -209,23 +209,23 @@ public class ADBlocks {
     public static final Block PURPLE_MUSHROOM_BLOCK = new ADPurpleMushroomBlock(AbstractBlock.Settings.copy(Blocks.RED_MUSHROOM_BLOCK));
     public static final Block WOODCUTTER = new ADWoodcutterBlock(AbstractBlock.Settings.create()
             .mapColor(MapColor.OAK_TAN).strength(2.5F).sounds(BlockSoundGroup.WOOD).burnable());
-    public static final Block WHITE_CAMPFIRE = dyedCampfireBlock(ADParticleTypes.WHITE_SPARK);
-    public static final Block ORANGE_CAMPFIRE = dyedCampfireBlock(ADParticleTypes.ORANGE_SPARK);
-    public static final Block MAGENTA_CAMPFIRE = dyedCampfireBlock(ADParticleTypes.MAGENTA_SPARK);
-    public static final Block LIGHT_BLUE_CAMPFIRE = dyedCampfireBlock(ADParticleTypes.LIGHT_BLUE_SPARK);
-    public static final Block YELLOW_CAMPFIRE = dyedCampfireBlock(ADParticleTypes.YELLOW_SPARK);
-    public static final Block LIME_CAMPFIRE = dyedCampfireBlock(ADParticleTypes.LIME_SPARK);
-    public static final Block PINK_CAMPFIRE = dyedCampfireBlock(ADParticleTypes.PINK_SPARK);
-    public static final Block GRAY_CAMPFIRE = dyedCampfireBlock(ADParticleTypes.GRAY_SPARK);
-    public static final Block LIGHT_GRAY_CAMPFIRE = dyedCampfireBlock(ADParticleTypes.LIGHT_GRAY_SPARK);
-    public static final Block CYAN_CAMPFIRE = dyedCampfireBlock(ADParticleTypes.CYAN_SPARK);
-    public static final Block PURPLE_CAMPFIRE = dyedCampfireBlock(ADParticleTypes.PURPLE_SPARK);
-    public static final Block BLUE_CAMPFIRE = dyedCampfireBlock(ADParticleTypes.BLUE_SPARK);
-    public static final Block BROWN_CAMPFIRE = dyedCampfireBlock(ADParticleTypes.BROWN_SPARK);
-    public static final Block GREEN_CAMPFIRE = dyedCampfireBlock(ADParticleTypes.GREEN_SPARK);
-    public static final Block RED_CAMPFIRE = dyedCampfireBlock(ADParticleTypes.RED_SPARK);
-    public static final Block BLACK_CAMPFIRE = dyedCampfireBlock(ADParticleTypes.BLACK_SPARK);
-    public static final Block MAROON_CAMPFIRE = dyedCampfireBlock(ADParticleTypes.MAROON_SPARK);
+    public static final Block WHITE_CAMPFIRE = dyedCampfireBlock(ADParticleTypes.WHITE_EMBER);
+    public static final Block ORANGE_CAMPFIRE = dyedCampfireBlock(ADParticleTypes.ORANGE_EMBER);
+    public static final Block MAGENTA_CAMPFIRE = dyedCampfireBlock(ADParticleTypes.MAGENTA_EMBER);
+    public static final Block LIGHT_BLUE_CAMPFIRE = dyedCampfireBlock(ADParticleTypes.LIGHT_BLUE_EMBER);
+    public static final Block YELLOW_CAMPFIRE = dyedCampfireBlock(ADParticleTypes.YELLOW_EMBER);
+    public static final Block LIME_CAMPFIRE = dyedCampfireBlock(ADParticleTypes.LIME_EMBER);
+    public static final Block PINK_CAMPFIRE = dyedCampfireBlock(ADParticleTypes.PINK_EMBER);
+    public static final Block GRAY_CAMPFIRE = dyedCampfireBlock(ADParticleTypes.GRAY_EMBER);
+    public static final Block LIGHT_GRAY_CAMPFIRE = dyedCampfireBlock(ADParticleTypes.LIGHT_GRAY_EMBER);
+    public static final Block CYAN_CAMPFIRE = dyedCampfireBlock(ADParticleTypes.CYAN_EMBER);
+    public static final Block PURPLE_CAMPFIRE = dyedCampfireBlock(ADParticleTypes.PURPLE_EMBER);
+    public static final Block BLUE_CAMPFIRE = dyedCampfireBlock(ADParticleTypes.BLUE_EMBER);
+    public static final Block BROWN_CAMPFIRE = dyedCampfireBlock(ADParticleTypes.BROWN_EMBER);
+    public static final Block GREEN_CAMPFIRE = dyedCampfireBlock(ADParticleTypes.GREEN_EMBER);
+    public static final Block RED_CAMPFIRE = dyedCampfireBlock(ADParticleTypes.RED_EMBER);
+    public static final Block BLACK_CAMPFIRE = dyedCampfireBlock(ADParticleTypes.BLACK_EMBER);
+    public static final Block MAROON_CAMPFIRE = dyedCampfireBlock(ADParticleTypes.MAROON_EMBER);
     public static final Block WHITE_LANTERN = lanternBlock();
     public static final Block ORANGE_LANTERN = lanternBlock();
     public static final Block MAGENTA_LANTERN = lanternBlock();
@@ -604,8 +604,8 @@ public class ADBlocks {
                 .sounds(BlockSoundGroup.WOOD));
     }
 
-    private static ADDyedCampfireBlock dyedCampfireBlock(ParticleEffect sparkParticle) {
-        return new ADDyedCampfireBlock(AbstractBlock.Settings.copy(Blocks.CAMPFIRE), sparkParticle);
+    private static ADDyedCampfireBlock dyedCampfireBlock(ParticleEffect emberParticle) {
+        return new ADDyedCampfireBlock(AbstractBlock.Settings.copy(Blocks.CAMPFIRE), emberParticle);
     }
 
     private static ToIntFunction<BlockState> getLuminanceFromState() {

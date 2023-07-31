@@ -8,23 +8,23 @@ import rndm_access.assorteddiscoveries.ADReference;
 import rndm_access.assorteddiscoveries.AssortedDiscoveries;
 
 public class ADParticleTypes {
-    public static final DefaultParticleType WHITE_SPARK = register("white_spark");
-    public static final DefaultParticleType ORANGE_SPARK = register("orange_spark");
-    public static final DefaultParticleType MAGENTA_SPARK = register("magenta_spark");
-    public static final DefaultParticleType LIGHT_BLUE_SPARK = register("light_blue_spark");
-    public static final DefaultParticleType YELLOW_SPARK = register("yellow_spark");
-    public static final DefaultParticleType LIME_SPARK = register("lime_spark");
-    public static final DefaultParticleType PINK_SPARK = register("pink_spark");
-    public static final DefaultParticleType GRAY_SPARK = register("gray_spark");
-    public static final DefaultParticleType LIGHT_GRAY_SPARK = register("light_gray_spark");
-    public static final DefaultParticleType CYAN_SPARK = register("cyan_spark");
-    public static final DefaultParticleType PURPLE_SPARK = register("purple_spark");
-    public static final DefaultParticleType BLUE_SPARK = register("blue_spark");
-    public static final DefaultParticleType BROWN_SPARK = register("brown_spark");
-    public static final DefaultParticleType GREEN_SPARK = register("green_spark");
-    public static final DefaultParticleType RED_SPARK = register("red_spark");
-    public static final DefaultParticleType BLACK_SPARK = register("black_spark");
-    public static final DefaultParticleType MAROON_SPARK = register("maroon_spark");
+    public static final DefaultParticleType WHITE_EMBER = register("white_ember");
+    public static final DefaultParticleType ORANGE_EMBER = register("orange_ember");
+    public static final DefaultParticleType MAGENTA_EMBER = register("magenta_ember");
+    public static final DefaultParticleType LIGHT_BLUE_EMBER = register("light_blue_ember");
+    public static final DefaultParticleType YELLOW_EMBER = register("yellow_ember");
+    public static final DefaultParticleType LIME_EMBER = register("lime_ember");
+    public static final DefaultParticleType PINK_EMBER = register("pink_ember");
+    public static final DefaultParticleType GRAY_EMBER = register("gray_ember");
+    public static final DefaultParticleType LIGHT_GRAY_EMBER = register("light_gray_ember");
+    public static final DefaultParticleType CYAN_EMBER = register("cyan_ember");
+    public static final DefaultParticleType PURPLE_EMBER = register("purple_ember");
+    public static final DefaultParticleType BLUE_EMBER = register("blue_ember");
+    public static final DefaultParticleType BROWN_EMBER = register("brown_ember");
+    public static final DefaultParticleType GREEN_EMBER = register("green_ember");
+    public static final DefaultParticleType RED_EMBER = register("red_ember");
+    public static final DefaultParticleType BLACK_EMBER = register("black_ember");
+    public static final DefaultParticleType MAROON_EMBER = register("maroon_ember");
     public static final DefaultParticleType WHITE_FLAME = register("white_flame");
     public static final DefaultParticleType ORANGE_FLAME = register("orange_flame");
     public static final DefaultParticleType MAGENTA_FLAME = register("magenta_flame");
@@ -46,7 +46,7 @@ public class ADParticleTypes {
     public static final DefaultParticleType WITCHS_CRADLE_SPORE = register("witchs_cradle_spore");
     public static final DefaultParticleType FALLING_WEEPING_HEART_NECTAR = register("falling_weeping_heart_nectar");
     public static final DefaultParticleType WEEPING_HEART_AIR_NECTAR = register("weeping_heart_air_nectar");
-    public static final DefaultParticleType SOUL_SPARK = register("soul_spark");
+    public static final DefaultParticleType SOUL_EMBER = register("soul_ember");
 
     private static DefaultParticleType register(String path) {
         return Registry.register(Registries.PARTICLE_TYPE, ADReference.makeId(path), FabricParticleTypes.simple());

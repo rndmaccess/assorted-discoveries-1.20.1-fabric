@@ -51,23 +51,23 @@ public class AssortedDiscoveriesClient implements ClientModInitializer {
     private void registerParticleFactories() {
         ParticleFactoryRegistry factoryRegistry = ParticleFactoryRegistry.getInstance();
 
-        factoryRegistry.register(ADParticleTypes.WHITE_SPARK, LavaEmberParticle.Factory::new);
-        factoryRegistry.register(ADParticleTypes.ORANGE_SPARK, LavaEmberParticle.Factory::new);
-        factoryRegistry.register(ADParticleTypes.MAGENTA_SPARK, LavaEmberParticle.Factory::new);
-        factoryRegistry.register(ADParticleTypes.LIGHT_BLUE_SPARK, LavaEmberParticle.Factory::new);
-        factoryRegistry.register(ADParticleTypes.YELLOW_SPARK, LavaEmberParticle.Factory::new);
-        factoryRegistry.register(ADParticleTypes.LIME_SPARK, LavaEmberParticle.Factory::new);
-        factoryRegistry.register(ADParticleTypes.PINK_SPARK, LavaEmberParticle.Factory::new);
-        factoryRegistry.register(ADParticleTypes.GRAY_SPARK, LavaEmberParticle.Factory::new);
-        factoryRegistry.register(ADParticleTypes.LIGHT_GRAY_SPARK, LavaEmberParticle.Factory::new);
-        factoryRegistry.register(ADParticleTypes.CYAN_SPARK, LavaEmberParticle.Factory::new);
-        factoryRegistry.register(ADParticleTypes.PURPLE_SPARK, LavaEmberParticle.Factory::new);
-        factoryRegistry.register(ADParticleTypes.BLUE_SPARK, LavaEmberParticle.Factory::new);
-        factoryRegistry.register(ADParticleTypes.BROWN_SPARK, LavaEmberParticle.Factory::new);
-        factoryRegistry.register(ADParticleTypes.GREEN_SPARK, LavaEmberParticle.Factory::new);
-        factoryRegistry.register(ADParticleTypes.RED_SPARK, LavaEmberParticle.Factory::new);
-        factoryRegistry.register(ADParticleTypes.BLACK_SPARK, LavaEmberParticle.Factory::new);
-        factoryRegistry.register(ADParticleTypes.MAROON_SPARK, LavaEmberParticle.Factory::new);
+        factoryRegistry.register(ADParticleTypes.WHITE_EMBER, LavaEmberParticle.Factory::new);
+        factoryRegistry.register(ADParticleTypes.ORANGE_EMBER, LavaEmberParticle.Factory::new);
+        factoryRegistry.register(ADParticleTypes.MAGENTA_EMBER, LavaEmberParticle.Factory::new);
+        factoryRegistry.register(ADParticleTypes.LIGHT_BLUE_EMBER, LavaEmberParticle.Factory::new);
+        factoryRegistry.register(ADParticleTypes.YELLOW_EMBER, LavaEmberParticle.Factory::new);
+        factoryRegistry.register(ADParticleTypes.LIME_EMBER, LavaEmberParticle.Factory::new);
+        factoryRegistry.register(ADParticleTypes.PINK_EMBER, LavaEmberParticle.Factory::new);
+        factoryRegistry.register(ADParticleTypes.GRAY_EMBER, LavaEmberParticle.Factory::new);
+        factoryRegistry.register(ADParticleTypes.LIGHT_GRAY_EMBER, LavaEmberParticle.Factory::new);
+        factoryRegistry.register(ADParticleTypes.CYAN_EMBER, LavaEmberParticle.Factory::new);
+        factoryRegistry.register(ADParticleTypes.PURPLE_EMBER, LavaEmberParticle.Factory::new);
+        factoryRegistry.register(ADParticleTypes.BLUE_EMBER, LavaEmberParticle.Factory::new);
+        factoryRegistry.register(ADParticleTypes.BROWN_EMBER, LavaEmberParticle.Factory::new);
+        factoryRegistry.register(ADParticleTypes.GREEN_EMBER, LavaEmberParticle.Factory::new);
+        factoryRegistry.register(ADParticleTypes.RED_EMBER, LavaEmberParticle.Factory::new);
+        factoryRegistry.register(ADParticleTypes.BLACK_EMBER, LavaEmberParticle.Factory::new);
+        factoryRegistry.register(ADParticleTypes.MAROON_EMBER, LavaEmberParticle.Factory::new);
         factoryRegistry.register(ADParticleTypes.WHITE_FLAME, FlameParticle.Factory::new);
         factoryRegistry.register(ADParticleTypes.ORANGE_FLAME, FlameParticle.Factory::new);
         factoryRegistry.register(ADParticleTypes.MAGENTA_FLAME, FlameParticle.Factory::new);
@@ -89,7 +89,7 @@ public class AssortedDiscoveriesClient implements ClientModInitializer {
         factoryRegistry.register(ADParticleTypes.WITCHS_CRADLE_SPORE, ADSporeParticle.Factory::new);
         factoryRegistry.register(ADParticleTypes.FALLING_WEEPING_HEART_NECTAR, ADFallingNectarParticle.Factory::new);
         factoryRegistry.register(ADParticleTypes.WEEPING_HEART_AIR_NECTAR, ADAirNectarParticle.Factory::new);
-        factoryRegistry.register(ADParticleTypes.SOUL_SPARK, LavaEmberParticle.Factory::new);
+        factoryRegistry.register(ADParticleTypes.SOUL_EMBER, LavaEmberParticle.Factory::new);
     }
 
     private void registerRenderLayers() {

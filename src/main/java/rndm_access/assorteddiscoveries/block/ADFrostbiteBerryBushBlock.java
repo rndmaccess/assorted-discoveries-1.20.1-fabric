@@ -41,7 +41,7 @@ public class ADFrostbiteBerryBushBlock extends ADAbstractBerryBushBlock {
         double randNum = random.nextDouble();
 
         if(randNum < 0.2) {
-            world.addParticle(ADParticleTypes.SOUL_SPARK, x, y, z, 0.0D, 0.0D, 0.0D);
+            world.addParticle(ADParticleTypes.SOUL_EMBER, x, y, z, 0.0D, 0.0D, 0.0D);
         }
     }
 

@@ -17,11 +17,11 @@ import rndm_access.assorteddiscoveries.block_entity.ADDyedCampfireBlockEntity;
 import rndm_access.assorteddiscoveries.core.ADBlockEntityTypes;
 
 public class ADDyedCampfireBlock extends CampfireBlock {
-    private final ParticleEffect sparkParticle;
+    private final ParticleEffect emberParticle;
 
     public ADDyedCampfireBlock(AbstractBlock.Settings settings, ParticleEffect sparkParticle) {
         super(false, 1, settings);
-        this.sparkParticle = sparkParticle;
+        this.emberParticle = sparkParticle;
     }
 
     @Override
@@ -36,7 +36,7 @@ public class ADDyedCampfireBlock extends CampfireBlock {
             // Spawn the spark particle randomly.
             if (random.nextInt(5) == 0) {
                 for (int i = 0; i < random.nextInt(1) + 1; ++i) {
-                    world.addParticle(sparkParticle, pos.getX() + 0.5D, pos.getY() + 0.5D, pos.getZ() + 0.5D,
+                    world.addParticle(emberParticle, pos.getX() + 0.5D, pos.getY() + 0.5D, pos.getZ() + 0.5D,
                             random.nextFloat() / 2.0F, 5.0E-5D, random.nextFloat() / 2.0F);
                 }
             }
