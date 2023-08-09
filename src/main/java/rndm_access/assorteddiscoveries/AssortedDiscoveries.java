@@ -43,7 +43,7 @@ public class AssortedDiscoveries implements ModInitializer {
 		ADParticleTypes.registerParticleTypes();
 		ADScreenHandlerTypes.registerScreenHandlerTypes();
 		ADRecipeTypes.registerRecipeTypes();
-		ADRecipeSerializers.registerSerializers();
+		ADRecipeSerializers.registerRecipeSerializers();
 		ADPaintingVariants.registerPaintingVariants();
 		ADSoundEvents.registerSoundEvents();
 		AssortedDiscoveries.registerFuel();
@@ -95,7 +95,6 @@ public class AssortedDiscoveries implements ModInitializer {
 		BiomeModifications.addFeature(BiomeSelectors.tag(CBiomeTags.PATCH_FROSTBITE_BERRY_BUSH),
 				GenerationStep.Feature.VEGETAL_DECORATION, ADPlacedFeatureKeys.PATCH_FROSTBITE_BERRY_BUSH_RARE);
 	}
-
 
 	private static void registerFuel() {
 		FuelRegistry.INSTANCE.add(ADItems.DRIED_BLOOD_KELP_BLOCK, 4000);

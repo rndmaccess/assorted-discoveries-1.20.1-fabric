@@ -15,7 +15,7 @@ public class ADFeature {
     public static final Feature<ProbabilityConfig> CATTAIL = new ADCattailFeature(ProbabilityConfig.CODEC);
     public static final Feature<DefaultFeatureConfig> BLOOD_KELP = new ADBloodKelpFeature(DefaultFeatureConfig.CODEC);
 
-    private static <C extends FeatureConfig, F extends Feature<C>> void register(String path, F feature) {
+    private static <C extends FeatureConfig, F extends Feature<C>> void registerFeature(String path, F feature) {
         Registry.register(Registries.FEATURE, ADReference.makeId(path), feature);
     }
 
@@ -23,8 +23,8 @@ public class ADFeature {
      * Called during initialization to register every feature.
      */
     public static void registerFeatures() {
-        register("cattail", CATTAIL);
-        register("blood_kelp", BLOOD_KELP);
+        registerFeature("cattail", CATTAIL);
+        registerFeature("blood_kelp", BLOOD_KELP);
 
         AssortedDiscoveries.LOGGER.info("Registered features");
     }

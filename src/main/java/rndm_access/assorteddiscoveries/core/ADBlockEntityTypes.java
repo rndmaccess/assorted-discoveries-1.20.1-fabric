@@ -19,7 +19,7 @@ public class ADBlockEntityTypes {
             ADBlocks.GREEN_CAMPFIRE, ADBlocks.RED_CAMPFIRE, ADBlocks.BLACK_CAMPFIRE,
             ADBlocks.MAROON_CAMPFIRE).build();
 
-    private static <T extends BlockEntity> void register(String path, BlockEntityType<T> type) {
+    private static <T extends BlockEntity> void registerBlockEntityType(String path, BlockEntityType<T> type) {
         Registry.register(Registries.BLOCK_ENTITY_TYPE, ADReference.makeId(path), type);
     }
 
@@ -27,7 +27,7 @@ public class ADBlockEntityTypes {
      * Called during mod initialization to register every block entity type.
      */
     public static void registerBlockEntityTypes() {
-        register("dyed_campfire", DYED_CAMPFIRE);
+        registerBlockEntityType("dyed_campfire", DYED_CAMPFIRE);
 
         AssortedDiscoveries.LOGGER.info("Registered block entity types");
     }

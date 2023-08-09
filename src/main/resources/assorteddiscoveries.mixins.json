@@ -14,8 +14,7 @@
     "ADSnowyBlockMixin",
     "ADSpreadableBlockMixin",
     "ADSproutsBlockMixin",
-    "ADTrunkPlacerMixin",
-    "ExampleMixin"
+    "ADTrunkPlacerMixin"
   ],
   "injectors": {
     "defaultRequire": 1

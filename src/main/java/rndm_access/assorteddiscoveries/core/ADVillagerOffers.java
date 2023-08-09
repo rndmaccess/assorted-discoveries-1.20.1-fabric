@@ -52,24 +52,21 @@ public class ADVillagerOffers {
         }
     }
 
-    private record ItemForEmeraldFactory(ItemStack buyItem, int maxTrades,
-                                         int xp) implements TradeOffers.Factory {
+    private record ItemForEmeraldFactory(ItemStack buyItem, int maxTrades, int xp) implements TradeOffers.Factory {
         @Override
         public TradeOffer create(Entity entity, Random random) {
             return new TradeOffer(buyItem, new ItemStack(Items.EMERALD), maxTrades, xp, 0.05F);
         }
     }
 
-    private record SellItemFactory(ItemStack buyItem, ItemStack forSale,
-                                   int maxTrades, int xp) implements TradeOffers.Factory {
+    private record SellItemFactory(ItemStack buyItem, ItemStack forSale, int maxTrades, int xp) implements TradeOffers.Factory {
         @Override
         public TradeOffer create(Entity entity, Random random) {
             return new TradeOffer(buyItem, new ItemStack(Items.EMERALD), forSale, maxTrades, xp, 0.05F);
         }
     }
 
-    private record MasterFactory(int emeralds, ItemStack forSale, int maxTrades,
-                                 float priceMultiplier) implements TradeOffers.Factory {
+    private record MasterFactory(int emeralds, ItemStack forSale, int maxTrades, float priceMultiplier) implements TradeOffers.Factory {
         @Override
         public TradeOffer create(Entity entity, Random random) {
             return new TradeOffer(new ItemStack(Items.EMERALD, emeralds), forSale, maxTrades, 0, priceMultiplier);

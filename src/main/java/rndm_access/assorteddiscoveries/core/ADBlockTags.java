@@ -1,4 +1,4 @@
-package rndm_access.assorteddiscoveries.common.core;
+package rndm_access.assorteddiscoveries.core;
 
 import net.minecraft.block.Block;
 import net.minecraft.registry.RegistryKeys;

@@ -13,16 +13,16 @@ import rndm_access.assorteddiscoveries.ADReference;
 import rndm_access.assorteddiscoveries.AssortedDiscoveries;
 
 public class ADVillagerProfessions {
-    public static final VillagerProfession LUMBERJACK = register(ADReference.makeId("lumberjack"),
+    public static final VillagerProfession LUMBERJACK = registerVillagerProfession(ADReference.makeId("lumberjack"),
             ADPointOfInterestTypes.LUMBERJACK, ADSoundEvents.UI_WOODCUTTER_TAKE_RESULT);
 
-    private static VillagerProfession register(Identifier id, RegistryKey<PointOfInterestType> workstation,
-                                               @Nullable SoundEvent workSound) {
-        return Registry.register(Registries.VILLAGER_PROFESSION, id, create(id, workstation, workSound));
+    private static VillagerProfession registerVillagerProfession(Identifier id, RegistryKey<PointOfInterestType> workstation,
+                                                                 @Nullable SoundEvent workSound) {
+        return Registry.register(Registries.VILLAGER_PROFESSION, id, createVillagerProfession(id, workstation, workSound));
     }
 
-    private static VillagerProfession create(Identifier id, RegistryKey<PointOfInterestType> workstation,
-                                               @Nullable SoundEvent workSound) {
+    private static VillagerProfession createVillagerProfession(Identifier id, RegistryKey<PointOfInterestType> workstation,
+                                                               @Nullable SoundEvent workSound) {
         return new VillagerProfession(id.toString(), (entry) -> entry.matchesKey(workstation),
                 (entry) -> entry.matchesKey(workstation), ImmutableSet.of(), ImmutableSet.of(), workSound);
     }

@@ -9,13 +9,13 @@ import rndm_access.assorteddiscoveries.AssortedDiscoveries;
 import rndm_access.assorteddiscoveries.item.crafting.ADWoodcuttingRecipe;
 
 public class ADRecipeTypes {
-    public static final RecipeType<ADWoodcuttingRecipe> WOODCUTTING = register("woodcutting");
+    public static final RecipeType<ADWoodcuttingRecipe> WOODCUTTING = registerRecipeType("woodcutting");
 
     public static void registerRecipeTypes() {
         AssortedDiscoveries.LOGGER.info("Registered recipe types.");
     }
 
-    private static <T extends Recipe<?>> RecipeType<T> register(String path) {
+    private static <T extends Recipe<?>> RecipeType<T> registerRecipeType(String path) {
         return Registry.register(Registries.RECIPE_TYPE, ADReference.makeId(path), new RecipeType<T>() {
             public String toString() {
                 return ADReference.makeId(path).toString();

@@ -12,8 +12,8 @@ import rndm_access.assorteddiscoveries.item.crafting.ADWoodcuttingRecipe;
 public class ADRecipeSerializers {
     public static final RecipeSerializer<ADWoodcuttingRecipe> WOODCUTTING = new ADWoodcuttingRecipe.Serializer<>(ADWoodcuttingRecipe::new);
 
-    public static void registerSerializers() {
-        register("woodcutting", WOODCUTTING);
+    public static void registerRecipeSerializers() {
+        registerRecipeSerializer("woodcutting", WOODCUTTING);
 
         AssortedDiscoveries.LOGGER.info("Registered recipe serializers");
     }
@@ -21,7 +21,7 @@ public class ADRecipeSerializers {
     /**
      * Called during mod initialization to register every recipe serializer.
      */
-    private static <T extends Recipe<Inventory>> void register(String id, RecipeSerializer<T> serializer) {
+    private static <T extends Recipe<Inventory>> void registerRecipeSerializer(String id, RecipeSerializer<T> serializer) {
         Registry.register(Registries.RECIPE_SERIALIZER, ADReference.makeId(id), serializer);
     }
 }

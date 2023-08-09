@@ -6,8 +6,8 @@ import net.minecraft.sound.SoundEvent;
 import rndm_access.assorteddiscoveries.ADReference;
 import rndm_access.assorteddiscoveries.AssortedDiscoveries;
 public class ADSoundEvents {
-    public static final SoundEvent BLOCK_MUSHROOM_BOUNCE = register("block.mushroom_bounce");
-    public static final SoundEvent UI_WOODCUTTER_TAKE_RESULT = register("ui.woodcutter.take_result");
+    public static final SoundEvent BLOCK_MUSHROOM_BOUNCE = registerSoundEvent("block.mushroom_bounce");
+    public static final SoundEvent UI_WOODCUTTER_TAKE_RESULT = registerSoundEvent("ui.woodcutter.take_result");
 
     public static void registerSoundEvents() {
         AssortedDiscoveries.LOGGER.info("Registered sound events.");
@@ -17,7 +17,7 @@ public class ADSoundEvents {
      * @param name The name for the sound event.
      * @return new sound event.
      */
-    private static SoundEvent register(String name) {
+    private static SoundEvent registerSoundEvent(String name) {
         return Registry.register(Registries.SOUND_EVENT, ADReference.makeId(name), SoundEvent.of(ADReference.makeId(name)));
     }
 }

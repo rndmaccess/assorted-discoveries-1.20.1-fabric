@@ -9,12 +9,12 @@ import rndm_access.assorteddiscoveries.AssortedDiscoveries;
 public class ADPaintingVariants {
     public static final PaintingVariant STARRY_NIGHT = new PaintingVariant(32, 32);
 
-    private static void register(String path, PaintingVariant variant) {
+    private static void registerPaintingVariant(String path, PaintingVariant variant) {
         Registry.register(Registries.PAINTING_VARIANT, ADReference.makeId(path), variant);
     }
 
     public static void registerPaintingVariants() {
-        register("starry_night", STARRY_NIGHT);
+        registerPaintingVariant("starry_night", STARRY_NIGHT);
 
         AssortedDiscoveries.LOGGER.info("Registered painting variants");
     }

@@ -12,12 +12,12 @@ public class ADScreenHandlerTypes {
     public static final ScreenHandlerType<ADWoodcutterScreenHandler> WOODCUTTER =
             new ScreenHandlerType<>(ADWoodcutterScreenHandler::new, FeatureSet.empty());
 
-    private static void register(String path, ScreenHandlerType<?> type) {
+    private static void registerScreenHandlerType(String path, ScreenHandlerType<?> type) {
         Registry.register(Registries.SCREEN_HANDLER, ADReference.makeId(path), type);
     }
 
     public static void registerScreenHandlerTypes() {
-        register("woodcutter", WOODCUTTER);
+        registerScreenHandlerType("woodcutter", WOODCUTTER);
 
         AssortedDiscoveries.LOGGER.info("Registered screen handler types.");
     }
