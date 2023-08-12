@@ -3,6 +3,7 @@
   "package": "rndm_access.assorteddiscoveries.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
+    "ADAxeItemMixin",
     "ADBoneMealItemMixin",
     "ADCropBlockMixin",
     "ADEntityAccessor",
@@ -14,8 +15,7 @@
     "ADSnowyBlockMixin",
     "ADSpreadableBlockMixin",
     "ADSproutsBlockMixin",
-    "ADTrunkPlacerMixin",
-    "ADAxeItemMixin"
+    "ADTrunkPlacerMixin"
   ],
   "injectors": {
     "defaultRequire": 1
