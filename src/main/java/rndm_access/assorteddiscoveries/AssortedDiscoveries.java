@@ -100,6 +100,8 @@ public class AssortedDiscoveries implements ModInitializer {
 		FuelRegistry.INSTANCE.add(ADItems.DRIED_BLOOD_KELP_BLOCK, 4000);
 	}
 
+
+
 	private static void registerCompostables() {
 		CompostingChanceRegistry.INSTANCE.add(ADItems.BLUEBERRIES, 0.3F);
 		CompostingChanceRegistry.INSTANCE.add(ADItems.CINDERSNAP_BERRIES, 0.3F);
@@ -477,6 +479,10 @@ public class AssortedDiscoveries implements ModInitializer {
 					entries.add(ADItems.WARPED_WALL);
 					entries.add(ADItems.STRIPPED_WARPED_WALL);
 					entries.add(ADItems.WARPED_ROPE_LADDER);
+					entries.add(ADItems.CHERRY_PLANTER_BOX);
+					entries.add(ADItems.CHERRY_WALL);
+					entries.add(ADItems.STRIPPED_CHERRY_WALL);
+					entries.add(ADItems.CHERRY_ROPE_LADDER);
 					entries.add(ADItems.PURPLE_MUSHROOM_BLOCK);
 					entries.add(ADItems.DRIED_BLOOD_KELP_BLOCK);
 					entries.add(ADItems.BLOOD_KELP_LANTERN);

@@ -137,6 +137,7 @@ public class ADItems {
     public static final Item ACACIA_PLANTER_BOX = blockItem(ADBlocks.ACACIA_PLANTER_BOX);
     public static final Item DARK_OAK_PLANTER_BOX = blockItem(ADBlocks.DARK_OAK_PLANTER_BOX);
     public static final Item MANGROVE_PLANTER_BOX = blockItem(ADBlocks.MANGROVE_PLANTER_BOX);
+    public static final Item CHERRY_PLANTER_BOX = blockItem(ADBlocks.CHERRY_PLANTER_BOX);
     public static final Item CRIMSON_PLANTER_BOX = blockItem(ADBlocks.CRIMSON_PLANTER_BOX);
     public static final Item WARPED_PLANTER_BOX = blockItem(ADBlocks.WARPED_PLANTER_BOX);
     public static final Item OAK_WALL = blockItem(ADBlocks.OAK_WALL);
@@ -148,6 +149,7 @@ public class ADItems {
     public static final Item MANGROVE_WALL = blockItem(ADBlocks.MANGROVE_WALL);
     public static final Item CRIMSON_WALL = blockItem(ADBlocks.CRIMSON_WALL);
     public static final Item WARPED_WALL = blockItem(ADBlocks.WARPED_WALL);
+    public static final Item CHERRY_WALL = blockItem(ADBlocks.CHERRY_WALL);
     public static final Item STRIPPED_OAK_WALL = blockItem(ADBlocks.STRIPPED_OAK_WALL);
     public static final Item STRIPPED_SPRUCE_WALL = blockItem(ADBlocks.STRIPPED_SPRUCE_WALL);
     public static final Item STRIPPED_BIRCH_WALL = blockItem(ADBlocks.STRIPPED_BIRCH_WALL);
@@ -157,6 +159,7 @@ public class ADItems {
     public static final Item STRIPPED_MANGROVE_WALL = blockItem(ADBlocks.STRIPPED_MANGROVE_WALL);
     public static final Item STRIPPED_CRIMSON_WALL = blockItem(ADBlocks.STRIPPED_CRIMSON_WALL);
     public static final Item STRIPPED_WARPED_WALL = blockItem(ADBlocks.STRIPPED_WARPED_WALL);
+    public static final Item STRIPPED_CHERRY_WALL = blockItem(ADBlocks.STRIPPED_CHERRY_WALL);
     public static final Item OAK_ROPE_LADDER = ropeLadderBlockItem(ADBlocks.OAK_ROPE_LADDER);
     public static final Item SPRUCE_ROPE_LADDER = ropeLadderBlockItem(ADBlocks.SPRUCE_ROPE_LADDER);
     public static final Item BIRCH_ROPE_LADDER = ropeLadderBlockItem(ADBlocks.BIRCH_ROPE_LADDER);
@@ -166,6 +169,7 @@ public class ADItems {
     public static final Item CRIMSON_ROPE_LADDER = ropeLadderBlockItem(ADBlocks.CRIMSON_ROPE_LADDER);
     public static final Item WARPED_ROPE_LADDER = ropeLadderBlockItem(ADBlocks.WARPED_ROPE_LADDER);
     public static final Item MANGROVE_ROPE_LADDER = ropeLadderBlockItem(ADBlocks.MANGROVE_ROPE_LADDER);
+    public static final Item CHERRY_ROPE_LADDER = ropeLadderBlockItem(ADBlocks.CHERRY_ROPE_LADDER);
     public static final Item IRON_LADDER = blockItem(ADBlocks.IRON_LADDER);
     public static final Item SNOW_BRICKS = blockItem(ADBlocks.SNOW_BRICKS);
     public static final Item SNOW_BRICK_STAIRS = blockItem(ADBlocks.SNOW_BRICK_STAIRS);
@@ -565,6 +569,7 @@ public class ADItems {
         registerItem("acacia_planter_box", ACACIA_PLANTER_BOX);
         registerItem("dark_oak_planter_box", DARK_OAK_PLANTER_BOX);
         registerItem("mangrove_planter_box", MANGROVE_PLANTER_BOX);
+        registerItem("cherry_planter_box", CHERRY_PLANTER_BOX);
         registerItem("crimson_planter_box", CRIMSON_PLANTER_BOX);
         registerItem("warped_planter_box", WARPED_PLANTER_BOX);
         registerItem("oak_wall", OAK_WALL);
@@ -576,6 +581,7 @@ public class ADItems {
         registerItem("mangrove_wall", MANGROVE_WALL);
         registerItem("crimson_wall", CRIMSON_WALL);
         registerItem("warped_wall", WARPED_WALL);
+        registerItem("cherry_wall", CHERRY_WALL);
         registerItem("stripped_oak_wall", STRIPPED_OAK_WALL);
         registerItem("stripped_spruce_wall", STRIPPED_SPRUCE_WALL);
         registerItem("stripped_birch_wall", STRIPPED_BIRCH_WALL);
@@ -585,6 +591,7 @@ public class ADItems {
         registerItem("stripped_mangrove_wall", STRIPPED_MANGROVE_WALL);
         registerItem("stripped_crimson_wall", STRIPPED_CRIMSON_WALL);
         registerItem("stripped_warped_wall", STRIPPED_WARPED_WALL);
+        registerItem("stripped_cherry_wall", STRIPPED_CHERRY_WALL);
         registerItem("oak_rope_ladder", OAK_ROPE_LADDER);
         registerItem("spruce_rope_ladder", SPRUCE_ROPE_LADDER);
         registerItem("birch_rope_ladder", BIRCH_ROPE_LADDER);
@@ -594,6 +601,7 @@ public class ADItems {
         registerItem("crimson_rope_ladder", CRIMSON_ROPE_LADDER);
         registerItem("warped_rope_ladder", WARPED_ROPE_LADDER);
         registerItem("mangrove_rope_ladder", MANGROVE_ROPE_LADDER);
+        registerItem("cherry_rope_ladder", CHERRY_ROPE_LADDER);
         registerItem("iron_ladder", IRON_LADDER);
         registerItem("snow_bricks", SNOW_BRICKS);
         registerItem("snow_brick_stairs", SNOW_BRICK_STAIRS);

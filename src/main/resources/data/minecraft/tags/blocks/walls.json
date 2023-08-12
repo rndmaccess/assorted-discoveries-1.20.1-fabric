@@ -53,6 +53,8 @@
 	"assorteddiscoveries:dripstone_brick_wall",
 	"assorteddiscoveries:mossy_dripstone_brick_wall",
 	"assorteddiscoveries:cracked_dripstone_brick_wall",
-	"assorteddiscoveries:packed_snow_wall"
+	"assorteddiscoveries:packed_snow_wall",
+	"assorteddiscoveries:cherry_wall",
+	"assorteddiscoveries:stripped_cherry_wall"
   ]
 }

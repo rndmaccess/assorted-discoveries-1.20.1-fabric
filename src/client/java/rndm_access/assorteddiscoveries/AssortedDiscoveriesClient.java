@@ -12,11 +12,11 @@ import net.minecraft.client.particle.LavaEmberParticle;
 import net.minecraft.client.render.RenderLayer;
 import net.minecraft.client.render.block.entity.BlockEntityRendererFactories;
 import rndm_access.assorteddiscoveries.block_entity.ADDyedCampfireBlockEntityRenderer;
+import rndm_access.assorteddiscoveries.core.*;
+import rndm_access.assorteddiscoveries.particle.ADAirNectarParticle;
 import rndm_access.assorteddiscoveries.particle.ADFallingNectarParticle;
 import rndm_access.assorteddiscoveries.particle.ADSporeParticle;
-import rndm_access.assorteddiscoveries.particle.ADAirNectarParticle;
 import rndm_access.assorteddiscoveries.screen.ADWoodcutterScreen;
-import rndm_access.assorteddiscoveries.core.*;
 
 public class AssortedDiscoveriesClient implements ClientModInitializer {
     @Override
@@ -121,7 +121,7 @@ public class AssortedDiscoveriesClient implements ClientModInitializer {
                 ADBlocks.BLOOD_KELP, ADBlocks.BLOOD_KELP_PLANT, ADBlocks.MANGROVE_ROPE_LADDER, ADBlocks.WEEPING_HEART,
                 ADBlocks.MAROON_CAMPFIRE, ADBlocks.MAROON_TORCH, ADBlocks.MAROON_WALL_TORCH, ADBlocks.MAROON_LANTERN,
                 ADBlocks.ORNATE_BAMBOO_FENCE_GATE, ADBlocks.FRESH_ORNATE_BAMBOO_FENCE_GATE, ADBlocks.CINDERSNAP_BERRY_BUSH,
-                ADBlocks.FROSTBITE_BERRY_BUSH);
+                ADBlocks.FROSTBITE_BERRY_BUSH, ADBlocks.CHERRY_ROPE_LADDER);
 
         BlockRenderLayerMap.INSTANCE.putBlocks(RenderLayer.getCutoutMipped(),
                 ADBlocks.ENDERMAN_PLUSH);

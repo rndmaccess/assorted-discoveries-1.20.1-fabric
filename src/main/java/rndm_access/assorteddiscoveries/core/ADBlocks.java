@@ -159,6 +159,7 @@ public class ADBlocks {
     public static final Block ACACIA_PLANTER_BOX = planterBoxBlock(MapColor.ORANGE);
     public static final Block DARK_OAK_PLANTER_BOX = planterBoxBlock(MapColor.BROWN);
     public static final Block MANGROVE_PLANTER_BOX = planterBoxBlock(MapColor.RED);
+    public static final Block CHERRY_PLANTER_BOX = planterBoxBlock(MapColor.TERRACOTTA_WHITE);
     public static final Block CRIMSON_PLANTER_BOX = netherPlanterBoxBlock(MapColor.DULL_PINK);
     public static final Block WARPED_PLANTER_BOX = netherPlanterBoxBlock(MapColor.DARK_AQUA);
     public static final Block OAK_WALL = new WallBlock(AbstractBlock.Settings.copy(Blocks.OAK_PLANKS));
@@ -170,6 +171,7 @@ public class ADBlocks {
     public static final Block MANGROVE_WALL = new WallBlock(AbstractBlock.Settings.copy(Blocks.MANGROVE_PLANKS));
     public static final Block CRIMSON_WALL = new WallBlock(AbstractBlock.Settings.copy(Blocks.CRIMSON_PLANKS));
     public static final Block WARPED_WALL = new WallBlock(AbstractBlock.Settings.copy(Blocks.WARPED_PLANKS));
+    public static final Block CHERRY_WALL = new WallBlock(AbstractBlock.Settings.copy(Blocks.CHERRY_PLANKS));
     public static final Block STRIPPED_OAK_WALL = new WallBlock(AbstractBlock.Settings.copy(Blocks.OAK_PLANKS));
     public static final Block STRIPPED_SPRUCE_WALL = new WallBlock(AbstractBlock.Settings.copy(Blocks.SPRUCE_PLANKS));
     public static final Block STRIPPED_BIRCH_WALL = new WallBlock(AbstractBlock.Settings.copy(Blocks.BIRCH_PLANKS));
@@ -179,6 +181,7 @@ public class ADBlocks {
     public static final Block STRIPPED_MANGROVE_WALL = new WallBlock(AbstractBlock.Settings.copy(Blocks.MANGROVE_PLANKS));
     public static final Block STRIPPED_CRIMSON_WALL = new WallBlock(AbstractBlock.Settings.copy(Blocks.CRIMSON_PLANKS));
     public static final Block STRIPPED_WARPED_WALL = new WallBlock(AbstractBlock.Settings.copy(Blocks.WARPED_PLANKS));
+    public static final Block STRIPPED_CHERRY_WALL = new WallBlock(AbstractBlock.Settings.copy(Blocks.CHERRY_PLANKS));
     public static final Block OAK_ROPE_LADDER = ropeLadderBlock();
     public static final Block SPRUCE_ROPE_LADDER = ropeLadderBlock();
     public static final Block BIRCH_ROPE_LADDER = ropeLadderBlock();
@@ -188,6 +191,7 @@ public class ADBlocks {
     public static final Block CRIMSON_ROPE_LADDER = ropeLadderBlock();
     public static final Block WARPED_ROPE_LADDER = ropeLadderBlock();
     public static final Block MANGROVE_ROPE_LADDER = ropeLadderBlock();
+    public static final Block CHERRY_ROPE_LADDER = ropeLadderBlock();
     public static final Block IRON_LADDER = new LadderBlock(AbstractBlock.Settings.create().mapColor(MapColor.IRON_GRAY)
             .requiresTool().strength(5.0F).sounds(BlockSoundGroup.METAL).nonOpaque());
     public static final Block SNOW_BRICKS = new Block(AbstractBlock.Settings.create().mapColor(MapColor.WHITE)
@@ -751,6 +755,7 @@ public class ADBlocks {
         registerBlock("acacia_planter_box", ACACIA_PLANTER_BOX);
         registerBlock("dark_oak_planter_box", DARK_OAK_PLANTER_BOX);
         registerBlock("mangrove_planter_box", MANGROVE_PLANTER_BOX);
+        registerBlock("cherry_planter_box", CHERRY_PLANTER_BOX);
         registerBlock("crimson_planter_box", CRIMSON_PLANTER_BOX);
         registerBlock("warped_planter_box", WARPED_PLANTER_BOX);
         registerBlock("oak_wall", OAK_WALL);
@@ -762,6 +767,7 @@ public class ADBlocks {
         registerBlock("mangrove_wall", MANGROVE_WALL);
         registerBlock("crimson_wall", CRIMSON_WALL);
         registerBlock("warped_wall", WARPED_WALL);
+        registerBlock("cherry_wall", CHERRY_WALL);
         registerBlock("stripped_oak_wall", STRIPPED_OAK_WALL);
         registerBlock("stripped_spruce_wall", STRIPPED_SPRUCE_WALL);
         registerBlock("stripped_birch_wall", STRIPPED_BIRCH_WALL);
@@ -771,6 +777,7 @@ public class ADBlocks {
         registerBlock("stripped_mangrove_wall", STRIPPED_MANGROVE_WALL);
         registerBlock("stripped_crimson_wall", STRIPPED_CRIMSON_WALL);
         registerBlock("stripped_warped_wall", STRIPPED_WARPED_WALL);
+        registerBlock("stripped_cherry_wall", STRIPPED_CHERRY_WALL);
         registerBlock("oak_rope_ladder", OAK_ROPE_LADDER);
         registerBlock("spruce_rope_ladder", SPRUCE_ROPE_LADDER);
         registerBlock("birch_rope_ladder", BIRCH_ROPE_LADDER);
@@ -780,6 +787,7 @@ public class ADBlocks {
         registerBlock("crimson_rope_ladder", CRIMSON_ROPE_LADDER);
         registerBlock("warped_rope_ladder", WARPED_ROPE_LADDER);
         registerBlock("mangrove_rope_ladder", MANGROVE_ROPE_LADDER);
+        registerBlock("cherry_rope_ladder", CHERRY_ROPE_LADDER);
         registerBlock("iron_ladder", IRON_LADDER);
         registerBlock("snow_bricks", SNOW_BRICKS);
         registerBlock("snow_brick_stairs", SNOW_BRICK_STAIRS);
