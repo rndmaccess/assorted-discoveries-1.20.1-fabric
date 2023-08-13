@@ -20,7 +20,7 @@ public class ADBlockEntityTypes {
             ADBlocks.MAROON_CAMPFIRE).build();
 
     private static <T extends BlockEntity> void registerBlockEntityType(String path, BlockEntityType<T> type) {
-        Registry.register(Registries.BLOCK_ENTITY_TYPE, ADReference.makeId(path), type);
+        Registry.register(Registries.BLOCK_ENTITY_TYPE, ADReference.makeModId(path), type);
     }
 
     /**

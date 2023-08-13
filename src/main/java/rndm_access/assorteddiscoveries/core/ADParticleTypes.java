@@ -49,7 +49,7 @@ public class ADParticleTypes {
     public static final DefaultParticleType SOUL_EMBER = registerParticleType("soul_ember");
 
     private static DefaultParticleType registerParticleType(String path) {
-        return Registry.register(Registries.PARTICLE_TYPE, ADReference.makeId(path), FabricParticleTypes.simple());
+        return Registry.register(Registries.PARTICLE_TYPE, ADReference.makeModId(path), FabricParticleTypes.simple());
     }
 
     /**

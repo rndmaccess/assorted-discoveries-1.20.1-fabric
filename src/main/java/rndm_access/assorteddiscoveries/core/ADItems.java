@@ -435,7 +435,7 @@ public class ADItems {
     }
 
     private static void registerItem(String path, Item item) {
-        Registry.register(Registries.ITEM, ADReference.makeId(path), item);
+        Registry.register(Registries.ITEM, ADReference.makeModId(path), item);
     }
 
     /**

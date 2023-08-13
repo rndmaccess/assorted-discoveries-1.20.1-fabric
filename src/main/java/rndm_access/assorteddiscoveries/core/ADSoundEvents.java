@@ -18,6 +18,6 @@ public class ADSoundEvents {
      * @return new sound event.
      */
     private static SoundEvent registerSoundEvent(String name) {
-        return Registry.register(Registries.SOUND_EVENT, ADReference.makeId(name), SoundEvent.of(ADReference.makeId(name)));
+        return Registry.register(Registries.SOUND_EVENT, ADReference.makeModId(name), SoundEvent.of(ADReference.makeModId(name)));
     }
 }

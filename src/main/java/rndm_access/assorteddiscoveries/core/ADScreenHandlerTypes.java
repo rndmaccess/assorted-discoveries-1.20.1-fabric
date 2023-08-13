@@ -13,7 +13,7 @@ public class ADScreenHandlerTypes {
             new ScreenHandlerType<>(ADWoodcutterScreenHandler::new, FeatureSet.empty());
 
     private static void registerScreenHandlerType(String path, ScreenHandlerType<?> type) {
-        Registry.register(Registries.SCREEN_HANDLER, ADReference.makeId(path), type);
+        Registry.register(Registries.SCREEN_HANDLER, ADReference.makeModId(path), type);
     }
 
     public static void registerScreenHandlerTypes() {

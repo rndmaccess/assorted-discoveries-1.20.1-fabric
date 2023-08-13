@@ -16,7 +16,7 @@ public class ADFeature {
     public static final Feature<DefaultFeatureConfig> BLOOD_KELP = new ADBloodKelpFeature(DefaultFeatureConfig.CODEC);
 
     private static <C extends FeatureConfig, F extends Feature<C>> void registerFeature(String path, F feature) {
-        Registry.register(Registries.FEATURE, ADReference.makeId(path), feature);
+        Registry.register(Registries.FEATURE, ADReference.makeModId(path), feature);
     }
 
     /**

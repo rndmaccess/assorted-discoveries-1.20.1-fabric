@@ -13,7 +13,7 @@ import rndm_access.assorteddiscoveries.ADReference;
 import rndm_access.assorteddiscoveries.AssortedDiscoveries;
 
 public class ADVillagerProfessions {
-    public static final VillagerProfession LUMBERJACK = registerVillagerProfession(ADReference.makeId("lumberjack"),
+    public static final VillagerProfession LUMBERJACK = registerVillagerProfession(ADReference.makeModId("lumberjack"),
             ADPointOfInterestTypes.LUMBERJACK, ADSoundEvents.UI_WOODCUTTER_TAKE_RESULT);
 
     private static VillagerProfession registerVillagerProfession(Identifier id, RegistryKey<PointOfInterestType> workstation,

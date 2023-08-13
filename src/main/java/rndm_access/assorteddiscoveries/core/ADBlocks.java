@@ -617,7 +617,7 @@ public class ADBlocks {
     }
 
     private static void registerBlock(String path, Block block) {
-        Registry.register(Registries.BLOCK, ADReference.makeId(path), block);
+        Registry.register(Registries.BLOCK, ADReference.makeModId(path), block);
     }
 
     /**

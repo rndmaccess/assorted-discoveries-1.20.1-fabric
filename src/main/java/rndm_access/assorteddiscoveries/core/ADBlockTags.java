@@ -14,6 +14,6 @@ public class ADBlockTags {
      * @return The tag from the location or an empty tag if none exists.
      */
     private static TagKey<Block> of(String path) {
-        return TagKey.of(RegistryKeys.BLOCK, ADReference.makeId(path));
+        return TagKey.of(RegistryKeys.BLOCK, ADReference.makeModId(path));
     }
 }

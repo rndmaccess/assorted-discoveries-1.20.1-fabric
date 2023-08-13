@@ -11,12 +11,12 @@ public class ADPointOfInterestTypes {
     public static final RegistryKey<PointOfInterestType> LUMBERJACK = of("lumberjack");
 
     public static void registerPointOfInterestTypes() {
-        PointOfInterestHelper.register(ADReference.makeId("lumberjack"), 1, 1, ADBlocks.WOODCUTTER);
+        PointOfInterestHelper.register(ADReference.makeModId("lumberjack"), 1, 1, ADBlocks.WOODCUTTER);
 
         AssortedDiscoveries.LOGGER.info("Registered point of interest types.");
     }
 
     private static RegistryKey<PointOfInterestType> of(String path) {
-        return RegistryKey.of(RegistryKeys.POINT_OF_INTEREST_TYPE, ADReference.makeId(path));
+        return RegistryKey.of(RegistryKeys.POINT_OF_INTEREST_TYPE, ADReference.makeModId(path));
     }
 }

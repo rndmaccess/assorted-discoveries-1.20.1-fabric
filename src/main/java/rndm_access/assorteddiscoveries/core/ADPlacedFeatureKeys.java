@@ -24,6 +24,6 @@ public class ADPlacedFeatureKeys {
     public static final RegistryKey<PlacedFeature> PATCH_FROSTBITE_BERRY_BUSH_RARE = of("patch_frostbite_berry_bush_rare");
 
     public static RegistryKey<PlacedFeature> of(String path) {
-        return RegistryKey.of(RegistryKeys.PLACED_FEATURE, ADReference.makeId(path));
+        return RegistryKey.of(RegistryKeys.PLACED_FEATURE, ADReference.makeModId(path));
     }
 }

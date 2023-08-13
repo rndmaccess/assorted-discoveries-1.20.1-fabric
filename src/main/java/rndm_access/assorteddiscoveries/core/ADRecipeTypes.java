@@ -16,9 +16,9 @@ public class ADRecipeTypes {
     }
 
     private static <T extends Recipe<?>> RecipeType<T> registerRecipeType(String path) {
-        return Registry.register(Registries.RECIPE_TYPE, ADReference.makeId(path), new RecipeType<T>() {
+        return Registry.register(Registries.RECIPE_TYPE, ADReference.makeModId(path), new RecipeType<T>() {
             public String toString() {
-                return ADReference.makeId(path).toString();
+                return ADReference.makeModId(path).toString();
             }
         });
     }

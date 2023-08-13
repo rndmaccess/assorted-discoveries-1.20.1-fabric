@@ -22,6 +22,6 @@ public class ADRecipeSerializers {
      * Called during mod initialization to register every recipe serializer.
      */
     private static <T extends Recipe<Inventory>> void registerRecipeSerializer(String id, RecipeSerializer<T> serializer) {
-        Registry.register(Registries.RECIPE_SERIALIZER, ADReference.makeId(id), serializer);
+        Registry.register(Registries.RECIPE_SERIALIZER, ADReference.makeModId(id), serializer);
     }
 }

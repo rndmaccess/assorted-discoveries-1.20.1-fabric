@@ -18,7 +18,7 @@ public class ADVillagerTypes {
     }
 
     private static void registerVillagerType(String path, ImmutableList<RegistryKey<Biome>> biomes) {
-        VillagerType type = createVillagerType(ADReference.makeId(path));
+        VillagerType type = createVillagerType(ADReference.makeModId(path));
 
         // Add the villager type to each biome listed.
         for(RegistryKey<Biome> biome : biomes) {

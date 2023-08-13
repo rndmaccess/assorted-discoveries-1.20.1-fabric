@@ -12,6 +12,6 @@ public class ADEntityTypeTags {
     public static final TagKey<EntityType<?>> FROSTBITE_BERRY_BUSH_IMMUNE_ENTITY_TYPES = of("frostbite_berry_bush_immune_entity_types");
 
     private static TagKey<EntityType<?>> of(String path) {
-        return TagKey.of(RegistryKeys.ENTITY_TYPE, ADReference.makeId(path));
+        return TagKey.of(RegistryKeys.ENTITY_TYPE, ADReference.makeModId(path));
     }
 }

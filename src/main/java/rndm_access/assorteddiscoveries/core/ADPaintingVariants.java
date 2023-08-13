@@ -10,7 +10,7 @@ public class ADPaintingVariants {
     public static final PaintingVariant STARRY_NIGHT = new PaintingVariant(32, 32);
 
     private static void registerPaintingVariant(String path, PaintingVariant variant) {
-        Registry.register(Registries.PAINTING_VARIANT, ADReference.makeId(path), variant);
+        Registry.register(Registries.PAINTING_VARIANT, ADReference.makeModId(path), variant);
     }
 
     public static void registerPaintingVariants() {
