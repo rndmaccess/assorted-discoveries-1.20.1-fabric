@@ -26,14 +26,14 @@ public class ADCattailFeature extends Feature<ProbabilityConfig> {
     }
 
     private boolean placeCattail(StructureWorldAccess world, Random random, int xOrigin, int zOrigin) {
-        BlockPos lowerPos = offsetPos(random, world, xOrigin, zOrigin);
+        BlockPos lowerPos = this.offsetPos(random, world, xOrigin, zOrigin);
         BlockPos upperPos = lowerPos.up();
         BlockState lowerHalf = ADBlocks.CATTAIL.getDefaultState();
         BlockState upperHalf = lowerHalf.with(ADCattailBlock.HALF, DoubleBlockHalf.UPPER);
         boolean canPlace = lowerHalf.canPlaceAt(world, lowerPos) && world.getBlockState(upperPos).isAir();
 
         if (canPlace) {
-            world.setBlockState(lowerPos, lowerHalf, 2);
+            world.setBlockState(lowerPos, lowerHalf.with(ADCattailBlock.WATERLOGGED, world.isWater(lowerPos)), 2);
             world.setBlockState(upperPos, upperHalf, 2);
             return true;
         }
