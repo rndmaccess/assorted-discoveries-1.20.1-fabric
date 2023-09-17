@@ -8,7 +8,6 @@ public class ADFoodComponents {
     public static final FoodComponent FRIED_EGG = (new FoodComponent.Builder()).hunger(2).saturationModifier(0.3F).build();
     public static final FoodComponent GARLIC = new FoodComponent.Builder().hunger(2).saturationModifier(0.3F).build();
     public static final FoodComponent GREEN_ONION = new FoodComponent.Builder().hunger(1).saturationModifier(0.3F).build();
-    public static final FoodComponent BOK_CHOY = new FoodComponent.Builder().hunger(3).saturationModifier(0.3F).build();
     public static final FoodComponent NOODLE_SOUP = stew(10);
     public static final FoodComponent PUDDING = stew(6);
     public static final FoodComponent BERRY_PUDDING = stew(8);

@@ -13,7 +13,7 @@ import rndm_access.assorteddiscoveries.core.ADItems;
 import java.util.Random;
 
 public class ADMixedSeedPacketItem extends Item {
-    protected static final ImmutableList<Item> SEEDS = ImmutableList.of(ADItems.GARLIC, ADItems.GREEN_ONION, ADItems.BOK_CHOY_SEEDS);
+    protected static final ImmutableList<Item> SEEDS = ImmutableList.of(ADItems.GARLIC, ADItems.GREEN_ONION);
 
     public ADMixedSeedPacketItem(Item.Settings settings) {
         super(settings);

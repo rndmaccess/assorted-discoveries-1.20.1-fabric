@@ -111,7 +111,6 @@ public class AssortedDiscoveries implements ModInitializer {
 		CompostingChanceRegistry.INSTANCE.add(ADItems.BLOOD_KELP, 0.3F);
 		CompostingChanceRegistry.INSTANCE.add(ADItems.DRIED_BLOOD_KELP, 0.3F);
 		CompostingChanceRegistry.INSTANCE.add(ADItems.ENDER_GRASS, 0.3F);
-		CompostingChanceRegistry.INSTANCE.add(ADItems.BOK_CHOY_SEEDS, 0.3F);
 		CompostingChanceRegistry.INSTANCE.add(ADItems.WEEPING_HEART_SEEDS, 0.3F);
 
 		CompostingChanceRegistry.INSTANCE.add(ADItems.CATTAIL, 0.5F);
@@ -120,7 +119,6 @@ public class AssortedDiscoveries implements ModInitializer {
 		CompostingChanceRegistry.INSTANCE.add(ADItems.SNAPDRAGON, 0.65F);
 		CompostingChanceRegistry.INSTANCE.add(ADItems.GARLIC, 0.65F);
 		CompostingChanceRegistry.INSTANCE.add(ADItems.GREEN_ONION, 0.65F);
-		CompostingChanceRegistry.INSTANCE.add(ADItems.BOK_CHOY, 0.65F);
 	}
 
 	private static void modifyLootTables() {
@@ -501,9 +499,7 @@ public class AssortedDiscoveries implements ModInitializer {
 					entries.add(ADItems.SWEET_BERRY_PIE);
 					entries.add(ADItems.BLUEBERRY_PIE);
 					entries.add(ADItems.MIXED_SEED_PACKET);
-					entries.add(ADItems.BOK_CHOY_SEEDS);
 					entries.add(ADItems.WEEPING_HEART_SEEDS);
-					entries.add(ADItems.BOK_CHOY);
 					entries.add(ADItems.GARLIC);
 					entries.add(ADItems.GREEN_ONION);
 					entries.add(ADItems.BLUEBERRIES);
