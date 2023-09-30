@@ -9,11 +9,11 @@ import net.minecraft.world.BlockView;
 
 import java.util.function.Supplier;
 
-public class ADOnionBlock extends BeetrootsBlock {
+public class ADGreenOnionBlock extends BeetrootsBlock {
     private static final VoxelShape[] ONION_SHAPE_BY_AGE;
     private final Supplier<Item> seedItem;
 
-    public ADOnionBlock(AbstractBlock.Settings settings, Supplier<Item> seedItem) {
+    public ADGreenOnionBlock(AbstractBlock.Settings settings, Supplier<Item> seedItem) {
         super(settings);
         this.seedItem = seedItem;
     }

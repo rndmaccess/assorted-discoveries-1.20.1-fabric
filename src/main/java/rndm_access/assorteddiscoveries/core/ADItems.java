@@ -362,8 +362,6 @@ public class ADItems {
     public static final Item CRACKED_DRIPSTONE_BRICK_SLAB = blockItem(ADBlocks.CRACKED_DRIPSTONE_BRICK_SLAB);
     public static final Item CRACKED_DRIPSTONE_BRICK_WALL = blockItem(ADBlocks.CRACKED_DRIPSTONE_BRICK_WALL);
     public static final Item CHISELED_DRIPSTONE_BRICKS = blockItem(ADBlocks.CHISELED_DRIPSTONE_BRICKS);
-    public static final Item GARLIC = new AliasedBlockItem(ADBlocks.GARLIC, new Item.Settings()
-            .food(ADFoodComponents.GARLIC));
     public static final Item GREEN_ONION = new AliasedBlockItem(ADBlocks.GREEN_ONIONS, new Item.Settings()
             .food(ADFoodComponents.GREEN_ONION));
     public static final Item BLUEBERRIES = new AliasedBlockItem(ADBlocks.BLUEBERRY_BUSH, new Item.Settings()
@@ -792,7 +790,6 @@ public class ADItems {
         registerItem("cracked_dripstone_brick_slab", CRACKED_DRIPSTONE_BRICK_SLAB);
         registerItem("cracked_dripstone_brick_wall", CRACKED_DRIPSTONE_BRICK_WALL);
         registerItem("chiseled_dripstone_bricks", CHISELED_DRIPSTONE_BRICKS);
-        registerItem("garlic", GARLIC);
         registerItem("green_onion", GREEN_ONION);
         registerItem("blueberries", BLUEBERRIES);
         registerItem("sweet_berry_juice", SWEET_BERRY_JUICE);

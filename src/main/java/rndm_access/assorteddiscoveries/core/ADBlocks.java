@@ -149,8 +149,7 @@ public class ADBlocks {
     public static final Block SMOOTH_QUARTZ_WALL = new WallBlock(AbstractBlock.Settings.copy(Blocks.SMOOTH_QUARTZ));
     public static final Block STONE_WALL = new WallBlock(AbstractBlock.Settings.copy(Blocks.STONE));
     public static final Block BLUEBERRY_BUSH = new ADBlueberryBushBlock(AbstractBlock.Settings.copy(Blocks.WHEAT));
-    public static final Block GARLIC = new ADOnionBlock(AbstractBlock.Settings.copy(Blocks.WHEAT), () -> ADItems.GARLIC);
-    public static final Block GREEN_ONIONS = new ADOnionBlock(AbstractBlock.Settings.copy(Blocks.WHEAT), () -> ADItems.GREEN_ONION);
+    public static final Block GREEN_ONIONS = new ADGreenOnionBlock(AbstractBlock.Settings.copy(Blocks.WHEAT), () -> ADItems.GREEN_ONION);
     public static final Block OAK_PLANTER_BOX = planterBoxBlock(MapColor.OAK_TAN);
     public static final Block SPRUCE_PLANTER_BOX = planterBoxBlock(MapColor.SPRUCE_BROWN);
     public static final Block BIRCH_PLANTER_BOX = planterBoxBlock(MapColor.PALE_YELLOW);
@@ -744,7 +743,6 @@ public class ADBlocks {
         registerBlock("smooth_quartz_wall", SMOOTH_QUARTZ_WALL);
         registerBlock("stone_wall", STONE_WALL);
         registerBlock("blueberry_bush", BLUEBERRY_BUSH);
-        registerBlock("garlic", GARLIC);
         registerBlock("green_onions", GREEN_ONIONS);
         registerBlock("oak_planter_box", OAK_PLANTER_BOX);
         registerBlock("spruce_planter_box", SPRUCE_PLANTER_BOX);

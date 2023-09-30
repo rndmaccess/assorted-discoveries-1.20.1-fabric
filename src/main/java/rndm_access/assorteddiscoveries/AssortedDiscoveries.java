@@ -117,7 +117,6 @@ public class AssortedDiscoveries implements ModInitializer {
 		CompostingChanceRegistry.INSTANCE.add(ADItems.DRIED_BLOOD_KELP_BLOCK, 0.5F);
 
 		CompostingChanceRegistry.INSTANCE.add(ADItems.SNAPDRAGON, 0.65F);
-		CompostingChanceRegistry.INSTANCE.add(ADItems.GARLIC, 0.65F);
 		CompostingChanceRegistry.INSTANCE.add(ADItems.GREEN_ONION, 0.65F);
 	}
 
@@ -500,7 +499,6 @@ public class AssortedDiscoveries implements ModInitializer {
 					entries.add(ADItems.BLUEBERRY_PIE);
 					entries.add(ADItems.MIXED_SEED_PACKET);
 					entries.add(ADItems.WEEPING_HEART_SEEDS);
-					entries.add(ADItems.GARLIC);
 					entries.add(ADItems.GREEN_ONION);
 					entries.add(ADItems.BLUEBERRIES);
 					entries.add(ADItems.CINDERSNAP_BERRIES);

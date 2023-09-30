@@ -115,7 +115,7 @@ public class AssortedDiscoveriesClient implements ClientModInitializer {
                 ADBlocks.PINK_WALL_TORCH, ADBlocks.LIGHT_GRAY_WALL_TORCH, ADBlocks.GRAY_WALL_TORCH,
                 ADBlocks.CYAN_WALL_TORCH, ADBlocks.PURPLE_WALL_TORCH, ADBlocks.BLUE_WALL_TORCH,
                 ADBlocks.BROWN_WALL_TORCH, ADBlocks.GREEN_WALL_TORCH, ADBlocks.RED_WALL_TORCH,
-                ADBlocks.BLACK_WALL_TORCH, ADBlocks.GARLIC, ADBlocks.GREEN_ONIONS, ADBlocks.BLUEBERRY_BUSH,
+                ADBlocks.BLACK_WALL_TORCH, ADBlocks.GREEN_ONIONS, ADBlocks.BLUEBERRY_BUSH,
                 ADBlocks.WITCHS_CRADLE, ADBlocks.SNAPDRAGON, ADBlocks.POTTED_SNAPDRAGON, ADBlocks.ENDER_GRASS,
                 ADBlocks.ICICLE, ADBlocks.CATTAIL, ADBlocks.POTTED_PURPLE_MUSHROOM, ADBlocks.BLOOD_KELP,
                 ADBlocks.BLOOD_KELP_PLANT, ADBlocks.MANGROVE_ROPE_LADDER, ADBlocks.WEEPING_HEART,
