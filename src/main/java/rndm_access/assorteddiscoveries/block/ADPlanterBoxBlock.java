@@ -28,7 +28,7 @@ public class ADPlanterBoxBlock extends Block {
     public static final BooleanProperty SOUTH = Properties.SOUTH;
     public static final BooleanProperty WEST = Properties.WEST;
     public static final BooleanProperty EAST = Properties.EAST;
-    private static final HashMap<List<Boolean>, VoxelShape> SHAPES = composeRotatedShapes();
+    private static final HashMap<List<Boolean>, VoxelShape> SHAPES = collectStateShapes();
 
     public ADPlanterBoxBlock(AbstractBlock.Settings settings) {
         super(settings);
@@ -37,25 +37,25 @@ public class ADPlanterBoxBlock extends Block {
     }
 
     /**
-     * A helper method that creates a hashmap that maps a list of booleans that represent each property,
-     * (south, north, east, west), to their appropriate shape.
+     * Makes a map of all shapes that the planter box can take according to its state.
      */
-    private static HashMap<List<Boolean>, VoxelShape> composeRotatedShapes() {
+    private static HashMap<List<Boolean>, VoxelShape> collectStateShapes() {
         VoxelShape bottomShape = Block.createCuboidShape(0.0, 0.0, 0.0, 16.0, 15.0, 16.0);
         VoxelShape northBorderShape = Block.createCuboidShape(0.0, 15.0, 13.0, 16.0, 16.0, 16.0);
         List<VoxelShape> borderShapes = ADVoxelShapeHelper.makeShapeRotationList(northBorderShape);
-        double borderNum = 4;
-        double stateNum = Math.pow(2, borderNum);
         HashMap<List<Boolean>, VoxelShape> shapes = new HashMap<>();
+        int borderNum = 4;
+        int stateNum = (int) Math.pow(2, borderNum);
 
-        // Generate a map of shapes for each state that the planter box can be in.
         for (int i = 0; i < stateNum; i++) {
             ArrayList<Boolean> borders = new ArrayList<>(4);
             VoxelShape tempBorderShape = VoxelShapes.empty();
 
             for (int j = 0; j < borderNum; j++) {
-                // When this bit is on there is a closed border here!!!
-                if (((i >> j) & 0x01) == 1) {
+                int bit = (i >> j) & 0x01;
+
+                // When the bit is 1 there is a planter box edge here.
+                if (bit == 1) {
                     borders.add(false);
                     tempBorderShape = VoxelShapes.union(tempBorderShape, borderShapes.get(j));
                 } else {
