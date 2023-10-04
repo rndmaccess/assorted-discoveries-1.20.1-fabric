@@ -309,11 +309,6 @@ public class ADBlocks {
             AbstractBlock.Settings.copy(BAUXITE_BRICKS));
     public static final Block CRACKED_BAUXITE_BRICK_SLAB = new SlabBlock(AbstractBlock.Settings.copy(BAUXITE_BRICKS));
     public static final Block CRACKED_BAUXITE_BRICK_WALL = new WallBlock(AbstractBlock.Settings.copy(BAUXITE_BRICKS));
-    public static final Block SNOW_SLAB = new SlabBlock(AbstractBlock.Settings.create()
-            .mapColor(MapColor.WHITE).requiresTool().strength(0.2F).sounds(BlockSoundGroup.SNOW));
-    public static final Block SNOW_STAIRS = new StairsBlock(Blocks.SNOW_BLOCK.getDefaultState(),
-            AbstractBlock.Settings.copy(SNOW_SLAB));
-    public static final Block SNOW_WALL = new WallBlock(AbstractBlock.Settings.copy(SNOW_SLAB));
     public static final Block TWISTED_NETHER_BRICKS = new Block(AbstractBlock.Settings.copy(Blocks.NETHER_BRICKS));
     public static final Block TWISTED_NETHER_BRICK_STAIRS = new StairsBlock(TWISTED_NETHER_BRICKS.getDefaultState(),
             AbstractBlock.Settings.copy(TWISTED_NETHER_BRICKS));
@@ -885,9 +880,6 @@ public class ADBlocks {
         registerBlock("cracked_bauxite_brick_stairs", CRACKED_BAUXITE_BRICK_STAIRS);
         registerBlock("cracked_bauxite_brick_slab", CRACKED_BAUXITE_BRICK_SLAB);
         registerBlock("cracked_bauxite_brick_wall", CRACKED_BAUXITE_BRICK_WALL);
-        registerBlock("snow_slab", SNOW_SLAB);
-        registerBlock("snow_stairs", SNOW_STAIRS);
-        registerBlock("snow_wall", SNOW_WALL);
         registerBlock("twisted_nether_bricks", TWISTED_NETHER_BRICKS);
         registerBlock("twisted_nether_brick_stairs", TWISTED_NETHER_BRICK_STAIRS);
         registerBlock("twisted_nether_brick_slab", TWISTED_NETHER_BRICK_SLAB);

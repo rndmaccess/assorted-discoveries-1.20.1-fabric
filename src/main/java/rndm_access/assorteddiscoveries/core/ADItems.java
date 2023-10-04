@@ -253,9 +253,6 @@ public class ADItems {
     public static final Item CRACKED_BAUXITE_BRICK_STAIRS = blockItem(ADBlocks.CRACKED_BAUXITE_BRICK_STAIRS);
     public static final Item CRACKED_BAUXITE_BRICK_SLAB = blockItem(ADBlocks.CRACKED_BAUXITE_BRICK_SLAB);
     public static final Item CRACKED_BAUXITE_BRICK_WALL = blockItem(ADBlocks.CRACKED_BAUXITE_BRICK_WALL);
-    public static final Item SNOW_SLAB = blockItem(ADBlocks.SNOW_SLAB);
-    public static final Item SNOW_STAIRS = blockItem(ADBlocks.SNOW_STAIRS);
-    public static final Item SNOW_WALL = blockItem(ADBlocks.SNOW_WALL);
     public static final Item TWISTED_NETHER_BRICKS = blockItem(ADBlocks.TWISTED_NETHER_BRICKS);
     public static final Item TWISTED_NETHER_BRICK_STAIRS = blockItem(ADBlocks.TWISTED_NETHER_BRICK_STAIRS);
     public static final Item TWISTED_NETHER_BRICK_SLAB = blockItem(ADBlocks.TWISTED_NETHER_BRICK_SLAB);
@@ -681,9 +678,6 @@ public class ADItems {
         registerItem("cracked_bauxite_brick_stairs", CRACKED_BAUXITE_BRICK_STAIRS);
         registerItem("cracked_bauxite_brick_slab", CRACKED_BAUXITE_BRICK_SLAB);
         registerItem("cracked_bauxite_brick_wall", CRACKED_BAUXITE_BRICK_WALL);
-        registerItem("snow_slab", SNOW_SLAB);
-        registerItem("snow_stairs", SNOW_STAIRS);
-        registerItem("snow_wall", SNOW_WALL);
         registerItem("twisted_nether_bricks", TWISTED_NETHER_BRICKS);
         registerItem("twisted_nether_brick_stairs", TWISTED_NETHER_BRICK_STAIRS);
         registerItem("twisted_nether_brick_slab", TWISTED_NETHER_BRICK_SLAB);

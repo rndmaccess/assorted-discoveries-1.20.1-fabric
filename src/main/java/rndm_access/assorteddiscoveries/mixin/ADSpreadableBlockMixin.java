@@ -18,7 +18,8 @@ public class ADSpreadableBlockMixin {
                                                        CallbackInfoReturnable<Boolean> info) {
         BlockState blockState = world.getBlockState(pos.up());
 
-        if(blockState.isIn(BlockTags.SNOW) || blockState.isIn(CBlockTags.SNOW_SLABS) || blockState.isIn(CBlockTags.SNOW_STAIRS)) {
+        if(blockState.isIn(BlockTags.SNOW) || blockState.isIn(CBlockTags.SNOW_SLABS)
+                || blockState.isIn(CBlockTags.SNOW_STAIRS)) {
             info.setReturnValue(true);
         }
     }

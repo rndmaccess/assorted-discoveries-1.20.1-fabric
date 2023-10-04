@@ -385,9 +385,6 @@ public class AssortedDiscoveries implements ModInitializer {
 					entries.add(ADItems.PACKED_SNOW_STAIRS);
 					entries.add(ADItems.PACKED_SNOW_SLAB);
 					entries.add(ADItems.PACKED_SNOW_WALL);
-					entries.add(ADItems.SNOW_SLAB);
-					entries.add(ADItems.SNOW_STAIRS);
-					entries.add(ADItems.SNOW_WALL);
 					entries.add(ADItems.WHITE_CAMPFIRE);
 					entries.add(ADItems.ORANGE_CAMPFIRE);
 					entries.add(ADItems.MAGENTA_CAMPFIRE);

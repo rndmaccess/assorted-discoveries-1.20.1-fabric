@@ -15,6 +15,8 @@ public class CBlockTags {
     public static final TagKey<Block> FROSTBITE_BERRY_BUSH_PLANTABLE_ON = of("frostbite_berry_bush_plantable_on");
     public static final TagKey<Block> SNOW_SLABS = of("snow_slabs");
     public static final TagKey<Block> SNOW_STAIRS = of("snow_stairs");
+    public static final TagKey<Block> SNOW_WALLS = of("snow_walls");
+    public static final TagKey<Block> WOODEN_WALLS = of("wooden_walls");
 
     /**
      * @param path The name of the tag.
