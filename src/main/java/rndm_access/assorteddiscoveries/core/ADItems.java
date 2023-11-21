@@ -233,10 +233,6 @@ public class ADItems {
     public static final Item RED_TORCH = wallStandingBlockItem(ADBlocks.RED_TORCH, ADBlocks.RED_WALL_TORCH);
     public static final Item BLACK_TORCH = wallStandingBlockItem(ADBlocks.BLACK_TORCH, ADBlocks.BLACK_WALL_TORCH);
     public static final Item MAROON_TORCH = wallStandingBlockItem(ADBlocks.MAROON_TORCH, ADBlocks.MAROON_WALL_TORCH);
-    public static final Item FRESH_ORNATE_BAMBOO_FENCE = blockItem(ADBlocks.FRESH_ORNATE_BAMBOO_FENCE);
-    public static final Item FRESH_ORNATE_BAMBOO_FENCE_GATE = blockItem(ADBlocks.FRESH_ORNATE_BAMBOO_FENCE_GATE);
-    public static final Item ORNATE_BAMBOO_FENCE = blockItem(ADBlocks.ORNATE_BAMBOO_FENCE);
-    public static final Item ORNATE_BAMBOO_FENCE_GATE = blockItem(ADBlocks.ORNATE_BAMBOO_FENCE_GATE);
     public static final Item BAUXITE = blockItem(ADBlocks.BAUXITE);
     public static final Item BAUXITE_SLAB = blockItem(ADBlocks.BAUXITE_SLAB);
     public static final Item BAUXITE_STAIRS = blockItem(ADBlocks.BAUXITE_STAIRS);
@@ -662,10 +658,6 @@ public class ADItems {
         registerItem("red_torch", RED_TORCH);
         registerItem("black_torch", BLACK_TORCH);
         registerItem("maroon_torch", MAROON_TORCH);
-        registerItem("fresh_ornate_bamboo_fence", FRESH_ORNATE_BAMBOO_FENCE);
-        registerItem("fresh_ornate_bamboo_fence_gate", FRESH_ORNATE_BAMBOO_FENCE_GATE);
-        registerItem("ornate_bamboo_fence", ORNATE_BAMBOO_FENCE);
-        registerItem("ornate_bamboo_fence_gate", ORNATE_BAMBOO_FENCE_GATE);
         registerItem("bauxite", BAUXITE);
         registerItem("bauxite_slab", BAUXITE_SLAB);
         registerItem("bauxite_stairs", BAUXITE_STAIRS);

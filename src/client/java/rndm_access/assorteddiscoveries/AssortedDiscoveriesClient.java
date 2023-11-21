@@ -120,8 +120,7 @@ public class AssortedDiscoveriesClient implements ClientModInitializer {
                 ADBlocks.ICICLE, ADBlocks.CATTAIL, ADBlocks.POTTED_PURPLE_MUSHROOM, ADBlocks.BLOOD_KELP,
                 ADBlocks.BLOOD_KELP_PLANT, ADBlocks.MANGROVE_ROPE_LADDER, ADBlocks.WEEPING_HEART,
                 ADBlocks.MAROON_CAMPFIRE, ADBlocks.MAROON_TORCH, ADBlocks.MAROON_WALL_TORCH, ADBlocks.MAROON_LANTERN,
-                ADBlocks.ORNATE_BAMBOO_FENCE_GATE, ADBlocks.FRESH_ORNATE_BAMBOO_FENCE_GATE, ADBlocks.CINDERSNAP_BERRY_BUSH,
-                ADBlocks.FROSTBITE_BERRY_BUSH, ADBlocks.CHERRY_ROPE_LADDER);
+                ADBlocks.CINDERSNAP_BERRY_BUSH, ADBlocks.FROSTBITE_BERRY_BUSH, ADBlocks.CHERRY_ROPE_LADDER);
 
         BlockRenderLayerMap.INSTANCE.putBlocks(RenderLayer.getCutoutMipped(),
                 ADBlocks.ENDERMAN_PLUSH);

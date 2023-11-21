@@ -494,14 +494,6 @@ public class AssortedDiscoveries implements ModInitializer {
 					entries.add(ADItems.RED_TORCH);
 					entries.add(ADItems.BLACK_TORCH);
 					entries.add(ADItems.MAROON_TORCH);
-
-					/*
-					entries.add(ADItems.FRESH_ORNATE_BAMBOO_FENCE);
-					entries.add(ADItems.FRESH_ORNATE_BAMBOO_FENCE_GATE);
-					entries.add(ADItems.ORNATE_BAMBOO_FENCE);
-					entries.add(ADItems.ORNATE_BAMBOO_FENCE_GATE);
-					*/
-
 					entries.add(ADItems.CHOCOLATE_CAKE);
 					entries.add(ADItems.RED_VELVET_CAKE);
 					entries.add(ADItems.SWEET_BERRY_PIE);

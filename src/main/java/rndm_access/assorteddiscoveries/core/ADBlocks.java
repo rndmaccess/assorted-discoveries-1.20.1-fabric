@@ -281,12 +281,6 @@ public class ADBlocks {
     public static final Block MAROON_TORCH = torchBlock(ADParticleTypes.MAROON_FLAME);
     public static final Block WITCHS_CRADLE = new ADWitchsCradleBlock(AbstractBlock.Settings.copy(Blocks.SWEET_BERRY_BUSH)
             .luminance((state) -> 10));
-    public static final Block FRESH_ORNATE_BAMBOO_FENCE = bambooFenceBlock(MapColor.DARK_GREEN);
-    public static final Block FRESH_ORNATE_BAMBOO_FENCE_GATE = new FenceGateBlock(AbstractBlock.Settings.copy(FRESH_ORNATE_BAMBOO_FENCE),
-            WoodType.BAMBOO);
-    public static final Block ORNATE_BAMBOO_FENCE = bambooFenceBlock(MapColor.YELLOW);
-    public static final Block ORNATE_BAMBOO_FENCE_GATE = new FenceGateBlock(AbstractBlock.Settings.copy(ORNATE_BAMBOO_FENCE),
-            WoodType.BAMBOO);
     public static final Block BAUXITE = new Block(AbstractBlock.Settings.create()
             .mapColor(MapColor.SPRUCE_BROWN).strength(0.3F));
     public static final Block BAUXITE_SLAB = new SlabBlock(AbstractBlock.Settings.copy(BAUXITE));
@@ -564,11 +558,6 @@ public class ADBlocks {
             AbstractBlock.Settings.copy(Blocks.DRIPSTONE_BLOCK));
     public static final Block POLISHED_DRIPSTONE_SLAB = new SlabBlock(AbstractBlock.Settings.copy(Blocks.DRIPSTONE_BLOCK));
     public static final Block POLISHED_DRIPSTONE_WALL = new WallBlock(AbstractBlock.Settings.copy(Blocks.DRIPSTONE_BLOCK));
-
-    private static ADBambooFenceBlock bambooFenceBlock(MapColor color) {
-        return new ADBambooFenceBlock(AbstractBlock.Settings.create().mapColor(color).strength(1.0F)
-                .breakInstantly().nonOpaque().sounds(BlockSoundGroup.BAMBOO).burnable());
-    }
 
     private static WallTorchBlock wallTorchBlock(ParticleEffect flameParticle) {
         return new WallTorchBlock(AbstractBlock.Settings.copy(Blocks.WALL_TORCH), flameParticle);
@@ -865,10 +854,6 @@ public class ADBlocks {
         registerBlock("black_torch", BLACK_TORCH);
         registerBlock("maroon_torch", MAROON_TORCH);
         registerBlock("witchs_cradle", WITCHS_CRADLE);
-        registerBlock("fresh_ornate_bamboo_fence", FRESH_ORNATE_BAMBOO_FENCE);
-        registerBlock("fresh_ornate_bamboo_fence_gate", FRESH_ORNATE_BAMBOO_FENCE_GATE);
-        registerBlock("ornate_bamboo_fence", ORNATE_BAMBOO_FENCE);
-        registerBlock("ornate_bamboo_fence_gate", ORNATE_BAMBOO_FENCE_GATE);
         registerBlock("bauxite", BAUXITE);
         registerBlock("bauxite_slab", BAUXITE_SLAB);
         registerBlock("bauxite_stairs", BAUXITE_STAIRS);
