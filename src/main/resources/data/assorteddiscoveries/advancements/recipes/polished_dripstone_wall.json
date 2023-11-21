@@ -2,7 +2,7 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "assorteddiscoveries:dripstone_bricks"
+      "assorteddiscoveries:polished_dripstone_wall"
     ]
   },
   "criteria": {
@@ -20,7 +20,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "assorteddiscoveries:dripstone_bricks"
+        "recipe": "assorteddiscoveries:polished_dripstone_brick_wall"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

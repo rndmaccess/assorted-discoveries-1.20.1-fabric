@@ -410,6 +410,10 @@ public class ADItems {
             .food(ADFoodComponents.NETHER_BERRIES));
     public static final Item FROSTBITE_BERRIES = new AliasedBlockItem(ADBlocks.FROSTBITE_BERRY_BUSH, new Item.Settings()
             .food(ADFoodComponents.NETHER_BERRIES));
+    public static final Item POLISHED_DRIPSTONE = blockItem(ADBlocks.POLISHED_DRIPSTONE);
+    public static final Item POLISHED_DRIPSTONE_STAIRS = blockItem(ADBlocks.POLISHED_DRIPSTONE_STAIRS);
+    public static final Item POLISHED_DRIPSTONE_SLAB = blockItem(ADBlocks.POLISHED_DRIPSTONE_SLAB);
+    public static final Item POLISHED_DRIPSTONE_WALL = blockItem(ADBlocks.POLISHED_DRIPSTONE_WALL);
 
     private static Item item() {
         return new Item(new Item.Settings());
@@ -820,6 +824,10 @@ public class ADItems {
         registerItem("camel_plush", CAMEL_PLUSH);
         registerItem("cindersnap_berries", CINDERSNAP_BERRIES);
         registerItem("frostbite_berries", FROSTBITE_BERRIES);
+        registerItem("polished_dripstone", POLISHED_DRIPSTONE);
+        registerItem("polished_dripstone_stairs", POLISHED_DRIPSTONE_STAIRS);
+        registerItem("polished_dripstone_slab", POLISHED_DRIPSTONE_SLAB);
+        registerItem("polished_dripstone_wall", POLISHED_DRIPSTONE_WALL);
 
         AssortedDiscoveries.LOGGER.info("Registered Items");
     }

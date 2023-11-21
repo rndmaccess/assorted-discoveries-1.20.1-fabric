@@ -1,8 +1,9 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "##",
-    "##"
+    "#  ",
+    "## ",
+    "###"
   ],
   "key": {
     "#": {
@@ -10,7 +11,7 @@
     }
   },
   "result": {
-    "item": "assorteddiscoveries:dripstone_bricks",
+    "item": "assorteddiscoveries:polished_dripstone_stairs",
     "count": 4
   }
 }

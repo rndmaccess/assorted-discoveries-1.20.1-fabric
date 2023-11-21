@@ -559,6 +559,11 @@ public class ADBlocks {
     public static final Block FROSTBITE_BERRY_BUSH = new ADFrostbiteBerryBushBlock(AbstractBlock.Settings.create()
             .mapColor(MapColor.CYAN).ticksRandomly().noCollision().sounds(BlockSoundGroup.NETHER_SPROUTS)
             .pistonBehavior(PistonBehavior.DESTROY).luminance((state) -> 5));
+    public static final Block POLISHED_DRIPSTONE = new Block(AbstractBlock.Settings.copy(Blocks.DRIPSTONE_BLOCK));
+    public static final Block POLISHED_DRIPSTONE_STAIRS = new StairsBlock(Blocks.DRIPSTONE_BLOCK.getDefaultState(),
+            AbstractBlock.Settings.copy(Blocks.DRIPSTONE_BLOCK));
+    public static final Block POLISHED_DRIPSTONE_SLAB = new SlabBlock(AbstractBlock.Settings.copy(Blocks.DRIPSTONE_BLOCK));
+    public static final Block POLISHED_DRIPSTONE_WALL = new WallBlock(AbstractBlock.Settings.copy(Blocks.DRIPSTONE_BLOCK));
 
     private static ADBambooFenceBlock bambooFenceBlock(MapColor color) {
         return new ADBambooFenceBlock(AbstractBlock.Settings.create().mapColor(color).strength(1.0F)
@@ -1040,6 +1045,10 @@ public class ADBlocks {
         registerBlock("camel_plush", CAMEL_PLUSH);
         registerBlock("cindersnap_berry_bush", CINDERSNAP_BERRY_BUSH);
         registerBlock("frostbite_berry_bush", FROSTBITE_BERRY_BUSH);
+        registerBlock("polished_dripstone", POLISHED_DRIPSTONE);
+        registerBlock("polished_dripstone_stairs", POLISHED_DRIPSTONE_STAIRS);
+        registerBlock("polished_dripstone_slab", POLISHED_DRIPSTONE_SLAB);
+        registerBlock("polished_dripstone_wall", POLISHED_DRIPSTONE_WALL);
 
         AssortedDiscoveries.LOGGER.info("Registered blocks");
     }

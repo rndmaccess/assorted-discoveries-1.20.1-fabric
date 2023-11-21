@@ -6,11 +6,11 @@
   ],
   "key": {
     "#": {
-      "item": "assorteddiscoveries:polished_dripstone"
+      "item": "minecraft:dripstone_block"
     }
   },
   "result": {
-    "item": "assorteddiscoveries:dripstone_bricks",
+    "item": "assorteddiscoveries:polished_dripstone",
     "count": 4
   }
 }

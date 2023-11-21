@@ -408,6 +408,10 @@ public class AssortedDiscoveries implements ModInitializer {
 					entries.add(ADItems.MOSSY_TUFF_BRICK_WALL);
 					*/
 
+					entries.add(ADItems.POLISHED_DRIPSTONE);
+					entries.add(ADItems.POLISHED_DRIPSTONE_STAIRS);
+					entries.add(ADItems.POLISHED_DRIPSTONE_SLAB);
+					entries.add(ADItems.POLISHED_DRIPSTONE_WALL);
 					entries.add(ADItems.DRIPSTONE_BRICKS);
 					entries.add(ADItems.DRIPSTONE_BRICK_STAIRS);
 					entries.add(ADItems.DRIPSTONE_BRICK_SLAB);
