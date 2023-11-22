@@ -161,6 +161,10 @@
     "assorteddiscoveries:polished_dripstone",
     "assorteddiscoveries:polished_dripstone_stairs",
     "assorteddiscoveries:polished_dripstone_slab",
-    "assorteddiscoveries:polished_dripstone_wall"
+    "assorteddiscoveries:polished_dripstone_wall",
+    "assorteddiscoveries:polished_calcite",
+    "assorteddiscoveries:polished_calcite_stairs",
+    "assorteddiscoveries:polished_calcite_slab",
+    "assorteddiscoveries:polished_calcite_wall"
   ]
 }

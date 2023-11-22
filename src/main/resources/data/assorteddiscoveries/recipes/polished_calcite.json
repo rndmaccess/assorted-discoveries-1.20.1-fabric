@@ -6,11 +6,11 @@
   ],
   "key": {
     "#": {
-      "item": "assorteddiscoveries:polished_calcite"
+      "item": "minecraft:calcite"
     }
   },
   "result": {
-    "item": "assorteddiscoveries:calcite_bricks",
+    "item": "assorteddiscoveries:polished_calcite",
     "count": 4
   }
 }

@@ -2,16 +2,16 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "assorteddiscoveries:calcite_bricks"
+      "assorteddiscoveries:polished_calcite_stairs_from_calcite_stonecutting"
     ]
   },
   "criteria": {
-    "has_polished_calcite": {
+    "has_calcite": {
       "conditions": {
         "items": [
           {
             "items": [
-              "assorteddiscoveries:polished_calcite"
+              "minecraft:calcite"
             ]
           }
         ]
@@ -20,14 +20,14 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "assorteddiscoveries:calcite_bricks"
+        "recipe": "assorteddiscoveries:polished_calcite_stairs_from_calcite_stonecutting"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
     [
-      "has_polished_calcite",
+      "has_calcite",
       "has_the_recipe"
     ]
   ]

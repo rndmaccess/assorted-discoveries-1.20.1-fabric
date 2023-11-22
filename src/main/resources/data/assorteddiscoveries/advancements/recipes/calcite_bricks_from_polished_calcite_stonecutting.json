@@ -2,7 +2,7 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "assorteddiscoveries:calcite_bricks"
+      "assorteddiscoveries:calcite_bricks_from_polished_calcite_stonecutting"
     ]
   },
   "criteria": {
@@ -20,7 +20,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "assorteddiscoveries:calcite_bricks"
+        "recipe": "assorteddiscoveries:calcite_bricks_from_polished_calcite_stonecutting"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

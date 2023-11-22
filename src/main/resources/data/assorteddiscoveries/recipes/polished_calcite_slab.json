@@ -1,8 +1,7 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "##",
-    "##"
+    "###"
   ],
   "key": {
     "#": {
@@ -10,7 +9,7 @@
     }
   },
   "result": {
-    "item": "assorteddiscoveries:calcite_bricks",
-    "count": 4
+    "item": "assorteddiscoveries:polished_calcite_slab",
+    "count": 6
   }
 }

@@ -410,6 +410,10 @@ public class ADItems {
     public static final Item POLISHED_DRIPSTONE_STAIRS = blockItem(ADBlocks.POLISHED_DRIPSTONE_STAIRS);
     public static final Item POLISHED_DRIPSTONE_SLAB = blockItem(ADBlocks.POLISHED_DRIPSTONE_SLAB);
     public static final Item POLISHED_DRIPSTONE_WALL = blockItem(ADBlocks.POLISHED_DRIPSTONE_WALL);
+    public static final Item POLISHED_CALCITE = blockItem(ADBlocks.POLISHED_CALCITE);
+    public static final Item POLISHED_CALCITE_STAIRS = blockItem(ADBlocks.POLISHED_CALCITE_STAIRS);
+    public static final Item POLISHED_CALCITE_SLAB = blockItem(ADBlocks.POLISHED_CALCITE_SLAB);
+    public static final Item POLISHED_CALCITE_WALL = blockItem(ADBlocks.POLISHED_CALCITE_WALL);
 
     private static Item item() {
         return new Item(new Item.Settings());
@@ -820,6 +824,10 @@ public class ADItems {
         registerItem("polished_dripstone_stairs", POLISHED_DRIPSTONE_STAIRS);
         registerItem("polished_dripstone_slab", POLISHED_DRIPSTONE_SLAB);
         registerItem("polished_dripstone_wall", POLISHED_DRIPSTONE_WALL);
+        registerItem("polished_calcite", POLISHED_CALCITE);
+        registerItem("polished_calcite_stairs", POLISHED_CALCITE_STAIRS);
+        registerItem("polished_calcite_slab", POLISHED_CALCITE_SLAB);
+        registerItem("polished_calcite_wall", POLISHED_CALCITE_WALL);
 
         AssortedDiscoveries.LOGGER.info("Registered Items");
     }
