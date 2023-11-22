@@ -412,21 +412,6 @@ public class ADBlocks {
     public static final Block CRACKED_CALCITE_BRICK_SLAB = new SlabBlock(AbstractBlock.Settings.copy(CRACKED_CALCITE_BRICKS));
     public static final Block CRACKED_CALCITE_BRICK_WALL = new WallBlock(AbstractBlock.Settings.copy(CRACKED_CALCITE_BRICKS));
     public static final Block CHISELED_CALCITE_BRICKS = new PillarBlock(AbstractBlock.Settings.copy(Blocks.CALCITE));
-    public static final Block TUFF_BRICKS = new Block(AbstractBlock.Settings.copy(Blocks.TUFF));
-    public static final Block TUFF_BRICK_STAIRS = new StairsBlock(Blocks.TUFF.getDefaultState(), AbstractBlock.Settings.copy(Blocks.TUFF));
-    public static final Block TUFF_BRICK_SLAB = new SlabBlock(AbstractBlock.Settings.copy(Blocks.TUFF));
-    public static final Block TUFF_BRICK_WALL = new WallBlock(AbstractBlock.Settings.copy(Blocks.TUFF));
-    public static final Block MOSSY_TUFF_BRICKS = new Block(AbstractBlock.Settings.copy(Blocks.TUFF));
-    public static final Block MOSSY_TUFF_BRICK_STAIRS = new StairsBlock(Blocks.TUFF.getDefaultState(),
-            AbstractBlock.Settings.copy(Blocks.TUFF));
-    public static final Block MOSSY_TUFF_BRICK_SLAB = new SlabBlock(AbstractBlock.Settings.copy(Blocks.TUFF));
-    public static final Block MOSSY_TUFF_BRICK_WALL = new WallBlock(AbstractBlock.Settings.copy(Blocks.TUFF));
-    public static final Block CRACKED_TUFF_BRICKS = new Block(AbstractBlock.Settings.copy(Blocks.TUFF));
-    public static final Block CRACKED_TUFF_BRICK_STAIRS = new StairsBlock(Blocks.TUFF.getDefaultState(),
-            AbstractBlock.Settings.copy(Blocks.TUFF));
-    public static final Block CRACKED_TUFF_BRICK_SLAB = new SlabBlock(AbstractBlock.Settings.copy(Blocks.TUFF));
-    public static final Block CRACKED_TUFF_BRICK_WALL = new WallBlock(AbstractBlock.Settings.copy(Blocks.TUFF));
-    public static final Block CHISELED_TUFF_BRICKS = new Block(AbstractBlock.Settings.copy(Blocks.TUFF));
     public static final Block DRIPSTONE_BRICKS = new Block(AbstractBlock.Settings.copy(Blocks.DRIPSTONE_BLOCK));
     public static final Block DRIPSTONE_BRICK_STAIRS = new StairsBlock(Blocks.DRIPSTONE_BLOCK.getDefaultState(),
             AbstractBlock.Settings.copy(Blocks.DRIPSTONE_BLOCK));
@@ -951,19 +936,6 @@ public class ADBlocks {
         registerBlock("cracked_calcite_brick_slab", CRACKED_CALCITE_BRICK_SLAB);
         registerBlock("cracked_calcite_brick_wall", CRACKED_CALCITE_BRICK_WALL);
         registerBlock("chiseled_calcite_bricks", CHISELED_CALCITE_BRICKS);
-        registerBlock("tuff_bricks", TUFF_BRICKS);
-        registerBlock("tuff_brick_stairs", TUFF_BRICK_STAIRS);
-        registerBlock("tuff_brick_slab", TUFF_BRICK_SLAB);
-        registerBlock("tuff_brick_wall", TUFF_BRICK_WALL);
-        registerBlock("mossy_tuff_bricks", MOSSY_TUFF_BRICKS);
-        registerBlock("mossy_tuff_brick_stairs", MOSSY_TUFF_BRICK_STAIRS);
-        registerBlock("mossy_tuff_brick_slab", MOSSY_TUFF_BRICK_SLAB);
-        registerBlock("mossy_tuff_brick_wall", MOSSY_TUFF_BRICK_WALL);
-        registerBlock("cracked_tuff_bricks", CRACKED_TUFF_BRICKS);
-        registerBlock("cracked_tuff_brick_stairs", CRACKED_TUFF_BRICK_STAIRS);
-        registerBlock("cracked_tuff_brick_slab", CRACKED_TUFF_BRICK_SLAB);
-        registerBlock("cracked_tuff_brick_wall", CRACKED_TUFF_BRICK_WALL);
-        registerBlock("chiseled_tuff_bricks", CHISELED_TUFF_BRICKS);
         registerBlock("dripstone_bricks", DRIPSTONE_BRICKS);
         registerBlock("dripstone_brick_stairs", DRIPSTONE_BRICK_STAIRS);
         registerBlock("dripstone_brick_slab", DRIPSTONE_BRICK_SLAB);
