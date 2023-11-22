@@ -344,8 +344,6 @@ public class AssortedDiscoveries implements ModInitializer {
 					entries.add(ADItems.QUARTZ_TILE_STAIRS);
 					entries.add(ADItems.QUARTZ_TILE_SLAB);
 					entries.add(ADItems.QUARTZ_TILE_WALL);
-					entries.add(ADItems.QUARTZ_WALL);
-					entries.add(ADItems.SMOOTH_QUARTZ_WALL);
 					entries.add(ADItems.BAUXITE);
 					entries.add(ADItems.BAUXITE_SLAB);
 					entries.add(ADItems.BAUXITE_STAIRS);
@@ -377,13 +375,10 @@ public class AssortedDiscoveries implements ModInitializer {
 					entries.add(ADItems.CRACKED_STONE_BRICK_STAIRS);
 					entries.add(ADItems.CRACKED_STONE_BRICK_SLAB);
 					entries.add(ADItems.CRACKED_STONE_BRICK_WALL);
-					entries.add(ADItems.STONE_WALL);
-
 					entries.add(ADItems.POLISHED_CALCITE);
 					entries.add(ADItems.POLISHED_CALCITE_STAIRS);
 					entries.add(ADItems.POLISHED_CALCITE_SLAB);
 					entries.add(ADItems.POLISHED_CALCITE_WALL);
-
 					entries.add(ADItems.CALCITE_BRICKS);
 					entries.add(ADItems.CALCITE_BRICK_STAIRS);
 					entries.add(ADItems.CALCITE_BRICK_SLAB);

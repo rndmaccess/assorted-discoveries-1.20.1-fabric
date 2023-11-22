@@ -145,9 +145,6 @@ public class ADBlocks {
             AbstractBlock.Settings.copy(Blocks.CRACKED_STONE_BRICKS));
     public static final Block CRACKED_STONE_BRICK_SLAB = new SlabBlock(AbstractBlock.Settings.copy(Blocks.CRACKED_STONE_BRICKS));
     public static final Block CRACKED_STONE_BRICK_WALL = new WallBlock(AbstractBlock.Settings.copy(Blocks.CRACKED_STONE_BRICKS));
-    public static final Block QUARTZ_WALL = new WallBlock(AbstractBlock.Settings.copy(Blocks.QUARTZ_BLOCK));
-    public static final Block SMOOTH_QUARTZ_WALL = new WallBlock(AbstractBlock.Settings.copy(Blocks.SMOOTH_QUARTZ));
-    public static final Block STONE_WALL = new WallBlock(AbstractBlock.Settings.copy(Blocks.STONE));
     public static final Block BLUEBERRY_BUSH = new ADBlueberryBushBlock(AbstractBlock.Settings.copy(Blocks.WHEAT));
     public static final Block GREEN_ONIONS = new ADGreenOnionBlock(AbstractBlock.Settings.copy(Blocks.WHEAT), () -> ADItems.GREEN_ONION);
     public static final Block OAK_PLANTER_BOX = planterBoxBlock(MapColor.OAK_TAN);
@@ -733,9 +730,6 @@ public class ADBlocks {
         registerBlock("cracked_stone_brick_stairs", CRACKED_STONE_BRICK_STAIRS);
         registerBlock("cracked_stone_brick_slab", CRACKED_STONE_BRICK_SLAB);
         registerBlock("cracked_stone_brick_wall", CRACKED_STONE_BRICK_WALL);
-        registerBlock("quartz_wall", QUARTZ_WALL);
-        registerBlock("smooth_quartz_wall", SMOOTH_QUARTZ_WALL);
-        registerBlock("stone_wall", STONE_WALL);
         registerBlock("blueberry_bush", BLUEBERRY_BUSH);
         registerBlock("green_onions", GREEN_ONIONS);
         registerBlock("oak_planter_box", OAK_PLANTER_BOX);
