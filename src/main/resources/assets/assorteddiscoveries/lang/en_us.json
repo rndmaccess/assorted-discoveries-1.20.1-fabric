@@ -393,6 +393,12 @@
   "block.assorteddiscoveries.polished_calcite_stairs": "Polished Calcite Stairs",
   "block.assorteddiscoveries.polished_calcite_slab": "Polished Calcite Slab",
   "block.assorteddiscoveries.polished_calcite_wall": "Polished Calcite Wall",
+  "block.assorteddiscoveries.dripstone_stairs": "Dripstone Stairs",
+  "block.assorteddiscoveries.dripstone_slab": "Dripstone Slab",
+  "block.assorteddiscoveries.dripstone_wall": "Dripstone Wall",
+  "block.assorteddiscoveries.calcite_stairs": "Calcite Stairs",
+  "block.assorteddiscoveries.calcite_slab": "Calcite Slab",
+  "block.assorteddiscoveries.calcite_wall": "Calcite Wall",
 
   "container.assorteddiscoveries.woodcutter": "Woodcutter",
 

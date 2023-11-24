@@ -2,16 +2,16 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "assorteddiscoveries:polished_dripstone_wall"
+      "assorteddiscoveries:dripstone_slab_from_dripstone_block_stonecutting"
     ]
   },
   "criteria": {
-    "has_polished_dripstone": {
+    "has_dripstone_block": {
       "conditions": {
         "items": [
           {
             "items": [
-              "assorteddiscoveries:polished_dripstone"
+              "minecraft:dripstone_block"
             ]
           }
         ]
@@ -20,14 +20,14 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "assorteddiscoveries:polished_dripstone_wall"
+        "recipe": "assorteddiscoveries:dripstone_slab_from_dripstone_block_stonecutting"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
     [
-      "has_polished_dripstone",
+      "has_dripstone_block",
       "has_the_recipe"
     ]
   ]

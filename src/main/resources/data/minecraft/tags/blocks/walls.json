@@ -28,6 +28,8 @@
 	"assorteddiscoveries:mossy_dripstone_brick_wall",
 	"assorteddiscoveries:cracked_dripstone_brick_wall",
 	"assorteddiscoveries:polished_dripstone_wall",
-	"assorteddiscoveries:polished_calcite_wall"
+	"assorteddiscoveries:polished_calcite_wall",
+	"assorteddiscoveries:dripstone_wall",
+	"assorteddiscoveries:calcite_wall"
   ]
 }

@@ -2,16 +2,16 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "assorteddiscoveries:polished_dripstone_wall"
+      "assorteddiscoveries:calcite_wall_from_calcite_stonecutting"
     ]
   },
   "criteria": {
-    "has_polished_dripstone": {
+    "has_calcite": {
       "conditions": {
         "items": [
           {
             "items": [
-              "assorteddiscoveries:polished_dripstone"
+              "minecraft:calcite"
             ]
           }
         ]
@@ -20,14 +20,14 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "assorteddiscoveries:polished_dripstone_wall"
+        "recipe": "assorteddiscoveries:calcite_wall_from_calcite_stonecutting"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
     [
-      "has_polished_dripstone",
+      "has_calcite",
       "has_the_recipe"
     ]
   ]

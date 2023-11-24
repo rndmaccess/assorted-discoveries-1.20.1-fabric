@@ -545,6 +545,14 @@ public class ADBlocks {
             AbstractBlock.Settings.copy(Blocks.CALCITE));
     public static final Block POLISHED_CALCITE_SLAB = new SlabBlock(AbstractBlock.Settings.copy(Blocks.CALCITE));
     public static final Block POLISHED_CALCITE_WALL = new WallBlock(AbstractBlock.Settings.copy(Blocks.CALCITE));
+    public static final Block DRIPSTONE_STAIRS = new StairsBlock(Blocks.DRIPSTONE_BLOCK.getDefaultState(),
+            AbstractBlock.Settings.copy(Blocks.DRIPSTONE_BLOCK));
+    public static final Block DRIPSTONE_SLAB = new SlabBlock(AbstractBlock.Settings.copy(Blocks.DRIPSTONE_BLOCK));
+    public static final Block DRIPSTONE_WALL = new WallBlock(AbstractBlock.Settings.copy(Blocks.DRIPSTONE_BLOCK));
+    public static final Block CALCITE_STAIRS = new StairsBlock(Blocks.CALCITE.getDefaultState(),
+            AbstractBlock.Settings.copy(Blocks.CALCITE));
+    public static final Block CALCITE_SLAB = new SlabBlock(AbstractBlock.Settings.copy(Blocks.CALCITE));
+    public static final Block CALCITE_WALL = new WallBlock(AbstractBlock.Settings.copy(Blocks.CALCITE));
 
     private static WallTorchBlock wallTorchBlock(ParticleEffect flameParticle) {
         return new WallTorchBlock(AbstractBlock.Settings.copy(Blocks.WALL_TORCH), flameParticle);
@@ -1009,6 +1017,12 @@ public class ADBlocks {
         registerBlock("polished_calcite_stairs", POLISHED_CALCITE_STAIRS);
         registerBlock("polished_calcite_slab", POLISHED_CALCITE_SLAB);
         registerBlock("polished_calcite_wall", POLISHED_CALCITE_WALL);
+        registerBlock("dripstone_stairs", DRIPSTONE_STAIRS);
+        registerBlock("dripstone_slab", DRIPSTONE_SLAB);
+        registerBlock("dripstone_wall", DRIPSTONE_WALL);
+        registerBlock("calcite_stairs", CALCITE_STAIRS);
+        registerBlock("calcite_slab", CALCITE_SLAB);
+        registerBlock("calcite_wall", CALCITE_WALL);
 
         AssortedDiscoveries.LOGGER.info("Registered blocks");
     }

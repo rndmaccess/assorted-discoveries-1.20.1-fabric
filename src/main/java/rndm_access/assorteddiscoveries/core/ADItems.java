@@ -398,6 +398,12 @@ public class ADItems {
     public static final Item POLISHED_CALCITE_STAIRS = blockItem(ADBlocks.POLISHED_CALCITE_STAIRS);
     public static final Item POLISHED_CALCITE_SLAB = blockItem(ADBlocks.POLISHED_CALCITE_SLAB);
     public static final Item POLISHED_CALCITE_WALL = blockItem(ADBlocks.POLISHED_CALCITE_WALL);
+    public static final Item DRIPSTONE_STAIRS = blockItem(ADBlocks.DRIPSTONE_STAIRS);
+    public static final Item DRIPSTONE_SLAB = blockItem(ADBlocks.DRIPSTONE_SLAB);
+    public static final Item DRIPSTONE_WALL = blockItem(ADBlocks.DRIPSTONE_WALL);
+    public static final Item CALCITE_STAIRS = blockItem(ADBlocks.CALCITE_STAIRS);
+    public static final Item CALCITE_SLAB = blockItem(ADBlocks.CALCITE_SLAB);
+    public static final Item CALCITE_WALL = blockItem(ADBlocks.CALCITE_WALL);
 
     private static Item item() {
         return new Item(new Item.Settings());
@@ -796,6 +802,12 @@ public class ADItems {
         registerItem("polished_calcite_stairs", POLISHED_CALCITE_STAIRS);
         registerItem("polished_calcite_slab", POLISHED_CALCITE_SLAB);
         registerItem("polished_calcite_wall", POLISHED_CALCITE_WALL);
+        registerItem("dripstone_stairs", DRIPSTONE_STAIRS);
+        registerItem("dripstone_slab", DRIPSTONE_SLAB);
+        registerItem("dripstone_wall", DRIPSTONE_WALL);
+        registerItem("calcite_stairs", CALCITE_STAIRS);
+        registerItem("calcite_slab", CALCITE_SLAB);
+        registerItem("calcite_wall", CALCITE_WALL);
 
         AssortedDiscoveries.LOGGER.info("Registered Items");
     }

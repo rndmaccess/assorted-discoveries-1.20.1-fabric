@@ -100,8 +100,6 @@ public class AssortedDiscoveries implements ModInitializer {
 		FuelRegistry.INSTANCE.add(ADItems.DRIED_BLOOD_KELP_BLOCK, 4000);
 	}
 
-
-
 	private static void registerCompostables() {
 		CompostingChanceRegistry.INSTANCE.add(ADItems.BLUEBERRIES, 0.3F);
 		CompostingChanceRegistry.INSTANCE.add(ADItems.CINDERSNAP_BERRIES, 0.3F);
@@ -375,6 +373,9 @@ public class AssortedDiscoveries implements ModInitializer {
 					entries.add(ADItems.CRACKED_STONE_BRICK_STAIRS);
 					entries.add(ADItems.CRACKED_STONE_BRICK_SLAB);
 					entries.add(ADItems.CRACKED_STONE_BRICK_WALL);
+					entries.add(ADItems.CALCITE_STAIRS);
+					entries.add(ADItems.CALCITE_SLAB);
+					entries.add(ADItems.CALCITE_WALL);
 					entries.add(ADItems.POLISHED_CALCITE);
 					entries.add(ADItems.POLISHED_CALCITE_STAIRS);
 					entries.add(ADItems.POLISHED_CALCITE_SLAB);
@@ -392,6 +393,9 @@ public class AssortedDiscoveries implements ModInitializer {
 					entries.add(ADItems.MOSSY_CALCITE_BRICK_STAIRS);
 					entries.add(ADItems.MOSSY_CALCITE_BRICK_SLAB);
 					entries.add(ADItems.MOSSY_CALCITE_BRICK_WALL);
+					entries.add(ADItems.DRIPSTONE_STAIRS);
+					entries.add(ADItems.DRIPSTONE_SLAB);
+					entries.add(ADItems.DRIPSTONE_WALL);
 					entries.add(ADItems.POLISHED_DRIPSTONE);
 					entries.add(ADItems.POLISHED_DRIPSTONE_STAIRS);
 					entries.add(ADItems.POLISHED_DRIPSTONE_SLAB);
