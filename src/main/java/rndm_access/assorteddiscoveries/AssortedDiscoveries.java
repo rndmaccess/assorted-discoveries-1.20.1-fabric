@@ -248,6 +248,7 @@ public class AssortedDiscoveries implements ModInitializer {
 					entries.add(ADItems.DARK_OAK_PLANTER_BOX);
 					entries.add(ADItems.MANGROVE_PLANTER_BOX);
 					entries.add(ADItems.CHERRY_PLANTER_BOX);
+					entries.add(ADItems.BAMBOO_PLANTER_BOX);
 					entries.add(ADItems.CRIMSON_PLANTER_BOX);
 					entries.add(ADItems.WARPED_PLANTER_BOX);
 					entries.add(ADItems.OAK_WALL);

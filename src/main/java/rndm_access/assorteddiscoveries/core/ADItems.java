@@ -404,6 +404,7 @@ public class ADItems {
     public static final Item CALCITE_STAIRS = blockItem(ADBlocks.CALCITE_STAIRS);
     public static final Item CALCITE_SLAB = blockItem(ADBlocks.CALCITE_SLAB);
     public static final Item CALCITE_WALL = blockItem(ADBlocks.CALCITE_WALL);
+    public static final Item BAMBOO_PLANTER_BOX = blockItem(ADBlocks.BAMBOO_PLANTER_BOX);
 
     private static Item item() {
         return new Item(new Item.Settings());
@@ -808,6 +809,7 @@ public class ADItems {
         registerItem("calcite_stairs", CALCITE_STAIRS);
         registerItem("calcite_slab", CALCITE_SLAB);
         registerItem("calcite_wall", CALCITE_WALL);
+        registerItem("bamboo_planter_box", BAMBOO_PLANTER_BOX);
 
         AssortedDiscoveries.LOGGER.info("Registered Items");
     }
