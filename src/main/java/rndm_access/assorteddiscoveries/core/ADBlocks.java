@@ -146,17 +146,26 @@ public class ADBlocks {
     public static final Block CRACKED_STONE_BRICK_SLAB = new SlabBlock(AbstractBlock.Settings.copy(Blocks.CRACKED_STONE_BRICKS));
     public static final Block CRACKED_STONE_BRICK_WALL = new WallBlock(AbstractBlock.Settings.copy(Blocks.CRACKED_STONE_BRICKS));
     public static final Block BLUEBERRY_BUSH = new ADBlueberryBushBlock(AbstractBlock.Settings.copy(Blocks.WHEAT));
-    public static final Block GREEN_ONIONS = new ADGreenOnionBlock(AbstractBlock.Settings.copy(Blocks.WHEAT), () -> ADItems.GREEN_ONION);
-    public static final Block OAK_PLANTER_BOX = planterBoxBlock(MapColor.OAK_TAN);
-    public static final Block SPRUCE_PLANTER_BOX = planterBoxBlock(MapColor.SPRUCE_BROWN);
-    public static final Block BIRCH_PLANTER_BOX = planterBoxBlock(MapColor.PALE_YELLOW);
-    public static final Block JUNGLE_PLANTER_BOX = planterBoxBlock(MapColor.DIRT_BROWN);
-    public static final Block ACACIA_PLANTER_BOX = planterBoxBlock(MapColor.ORANGE);
-    public static final Block DARK_OAK_PLANTER_BOX = planterBoxBlock(MapColor.BROWN);
-    public static final Block MANGROVE_PLANTER_BOX = planterBoxBlock(MapColor.RED);
-    public static final Block CHERRY_PLANTER_BOX = planterBoxBlock(MapColor.TERRACOTTA_WHITE);
-    public static final Block CRIMSON_PLANTER_BOX = netherPlanterBoxBlock(MapColor.DULL_PINK);
-    public static final Block WARPED_PLANTER_BOX = netherPlanterBoxBlock(MapColor.DARK_AQUA);
+    public static final Block GREEN_ONIONS = new ADGreenOnionBlock(AbstractBlock.Settings.copy(Blocks.WHEAT),
+            () -> ADItems.GREEN_ONION);
+    public static final Block OAK_PLANTER_BOX = planterBoxBlock(Blocks.OAK_PLANKS.getDefaultMapColor(),
+            BlockSoundGroup.WOOD);
+    public static final Block SPRUCE_PLANTER_BOX = planterBoxBlock(Blocks.SPRUCE_PLANKS.getDefaultMapColor(),
+            BlockSoundGroup.WOOD);
+    public static final Block BIRCH_PLANTER_BOX = planterBoxBlock(Blocks.BIRCH_PLANKS.getDefaultMapColor(),
+            BlockSoundGroup.WOOD);
+    public static final Block JUNGLE_PLANTER_BOX = planterBoxBlock(Blocks.JUNGLE_PLANKS.getDefaultMapColor(),
+            BlockSoundGroup.WOOD);
+    public static final Block ACACIA_PLANTER_BOX = planterBoxBlock(Blocks.ACACIA_PLANKS.getDefaultMapColor(),
+            BlockSoundGroup.WOOD);
+    public static final Block DARK_OAK_PLANTER_BOX = planterBoxBlock(Blocks.DARK_OAK_PLANKS.getDefaultMapColor(),
+            BlockSoundGroup.WOOD);
+    public static final Block MANGROVE_PLANTER_BOX = planterBoxBlock(Blocks.MANGROVE_PLANKS.getDefaultMapColor(),
+            BlockSoundGroup.WOOD);
+    public static final Block CHERRY_PLANTER_BOX = planterBoxBlock(Blocks.CHERRY_PLANKS.getDefaultMapColor(),
+            BlockSoundGroup.CHERRY_WOOD);
+    public static final Block CRIMSON_PLANTER_BOX = netherPlanterBoxBlock(Blocks.CRIMSON_PLANKS.getDefaultMapColor());
+    public static final Block WARPED_PLANTER_BOX = netherPlanterBoxBlock(Blocks.WARPED_PLANKS.getDefaultMapColor());
     public static final Block OAK_WALL = new WallBlock(AbstractBlock.Settings.copy(Blocks.OAK_PLANKS));
     public static final Block SPRUCE_WALL = new WallBlock(AbstractBlock.Settings.copy(Blocks.SPRUCE_PLANKS));
     public static final Block BIRCH_WALL = new WallBlock(AbstractBlock.Settings.copy(Blocks.BIRCH_PLANKS));
@@ -553,7 +562,8 @@ public class ADBlocks {
             AbstractBlock.Settings.copy(Blocks.CALCITE));
     public static final Block CALCITE_SLAB = new SlabBlock(AbstractBlock.Settings.copy(Blocks.CALCITE));
     public static final Block CALCITE_WALL = new WallBlock(AbstractBlock.Settings.copy(Blocks.CALCITE));
-    public static final Block BAMBOO_PLANTER_BOX = planterBoxBlock(MapColor.TERRACOTTA_WHITE);
+    public static final Block BAMBOO_PLANTER_BOX = planterBoxBlock(Blocks.BAMBOO_PLANKS.getDefaultMapColor(),
+            BlockSoundGroup.BAMBOO_WOOD);
 
     private static WallTorchBlock wallTorchBlock(ParticleEffect flameParticle) {
         return new WallTorchBlock(AbstractBlock.Settings.copy(Blocks.WALL_TORCH), flameParticle);
@@ -581,14 +591,14 @@ public class ADBlocks {
 
     private static ADRopeLadderBlock ropeLadderBlock() { return new ADRopeLadderBlock(AbstractBlock.Settings.copy(Blocks.LADDER)); }
 
-    private static ADPlanterBoxBlock planterBoxBlock(MapColor color) {
+    private static ADPlanterBoxBlock planterBoxBlock(MapColor color, BlockSoundGroup soundGroup) {
         return new ADPlanterBoxBlock(AbstractBlock.Settings.create().mapColor(color).strength(2.5F)
-                .sounds(BlockSoundGroup.WOOD).burnable());
+                .sounds(soundGroup).burnable());
     }
 
     private static ADPlanterBoxBlock netherPlanterBoxBlock(MapColor color) {
         return new ADPlanterBoxBlock(AbstractBlock.Settings.create().mapColor(color).strength(2.5F)
-                .sounds(BlockSoundGroup.WOOD));
+                .sounds(BlockSoundGroup.NETHER_WOOD));
     }
 
     private static ADDyedCampfireBlock dyedCampfireBlock(ParticleEffect emberParticle) {
